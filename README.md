@@ -20,3 +20,9 @@ If you would like to make contributions, fixes, or updates, sure, go for it, but
 Why not release the full .NET Interview Preparation Flash Cards project?
 ------------------------------------------------------------------------
 Because, as I mentioned above, the technology is all from 2011, when cross-platform app toolkits were still new, and I was new to app development. I just hacked it together as best I could at the time. I don't think anyone would learn much from it, except perhaps what not to do. :-) So, go build your own!
+
+Book
+--------
+I also wrote a book in 2011 first, then wrote the app to go along with it:
+http://www.amazon.com/Find-Land-Microsoft-NET-Development-ebook/dp/B004ZR17FG/ref=sr_1_1?ie=UTF8&qid=1430837993&sr=8-1&keywords=.net+interview+dave+haynes
+
