@@ -11,7 +11,7 @@ The questions, answers, and mobile app technology used in my .NET Interview Prep
 
 Free to use in your own projects
 --------------------------------
-You can use these questions and answers in your own works, even commercially, if you desire. You can change them if you want, add to them, etc. All I ask is a little attribution, and, if possible, a link to http://downcastsystems.com.
+You can use these questions and answers in your own works, even commercially, if you desire. You can change them if you want, add to them, etc. All I ask is a little attribution (Dave Haynes / Downcast Systems LLC), and, if possible, a link to http://downcastsystems.com.
 
 Contributions
 -------------
