@@ -1,0 +1,1233 @@
+var data_flashCards = 
+[
+  {
+    "Question": "What does DRY mean?",
+    "Answer": "Don't Repeat Yourself\r\n    \t\r\n    \t\"His task was to write 'I will not repeat myself' to the console 100 times. A hundred Console.WriteLines later, I told him DRY, and showed him how to use a for loop.\"\r\n    \t",
+    "Category": "General Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "What does ERP mean?",
+    "Answer": "Enterprise Resource Planning\r\n    \t\r\n    \tSAP and J.D. Edwards (JDE) have competing ERP solutions.\r\n    \t\r\n    \t<a target=\"_blank\" href=\"#http://bit.ly/3RNgsc\">http://bit.ly/3RNgsc</a>\r\n    \t",
+    "Category": "General Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "What does <i>grok</i> mean?",
+    "Answer": "To fully and completely understand something. It comes from the book <i>Stranger in a Strange Land</i> by Robert Heinlein.\r\n    \t\r\n    \t\"I still don't grok XMLScript.\"\r\n    \t",
+    "Category": "General Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "What does LAMP mean?",
+    "Answer": "Originally came from the first letters of Linux, Apache, MySQL, and PHP, but now it commonly means any solution involving free, open source software.\r\n    \t\r\n    \t\"We aren't paying the Microsoft tax here. We prefer the LAMP stack.\"\r\n    \t",
+    "Category": "General Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "What does NIH mean?",
+    "Answer": "Not Invented Here\r\n    \t\r\n    \t\"He's afraid to use jQuery because it's NIH.\"\r\n    \t",
+    "Category": "General Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "What does POCO mean?",
+    "Answer": "Plain Old CLR Objects\r\n    \t",
+    "Category": "General Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "What does REST stand for?",
+    "Answer": "Representational State Transfer\r\n    \t",
+    "Category": "General Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "What does RIA mean?",
+    "Answer": "Rich Internet Application\r\n    \t\r\n    \t\"HTML5 should make creating RIAs much easier.\"\r\n    \t",
+    "Category": "General Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "What does LIFO mean?",
+    "Answer": "Last In, First Out\r\n    \t\r\nLIFO describes the way data stored in a Stack is processed.\r\n    \t",
+    "Category": "General Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "What does FIFO mean?",
+    "Answer": "First In, First Out\r\n    \t\r\nFIFO describes the way data stored in a Queue is processed.\r\n    \t",
+    "Category": "General Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "What does RIA mean?",
+    "Answer": "Rich Internet Application\r\n    \t\r\n    \t\"HTML5 should make creating RIAs much easier.\"\r\n    \t",
+    "Category": "General Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "What does SaaS mean?",
+    "Answer": "Software as a Service\r\n    \t\r\n    \t\"We may be able to save money on hardware and maintenance costs if, instead of hosting our own solution in-house, we just use Acme's SaaS solution.\"\r\n    \t",
+    "Category": "General Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "What does Thrashing mean?",
+    "Answer": "This is what you call it when you continue working on something despite making no progress.\r\n    \t\r\n    \t\"Jim's been thrashing for days, so I suggested he work on something different for a little while.\"\r\n    \t",
+    "Category": "General Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "What does YAGNI mean?",
+    "Answer": "You Ain't Gonna Need It\r\n    \t\r\n    \t\"I thought I'd just go ahead and add some additional overloads for the Add method that let you add strings together too. Just in case we need it later. What do you think?\"\r\n    \t\r\n    \t\"I think YAGNI. You shouldn't create stuff that you don't need because chances are, you will never use it.\"\r\n    \t",
+    "Category": "General Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "Explain the Bubble Sort algorithm.",
+    "Answer": "The Bubble Sort is a sorting algorithm that works like this:\r\n    \t\r\n1. Step through the list to be sorted.\r\n2. Compare each pair of adjacent items.\r\n3. If the adjacent items are in the wrong order, swap them.\r\n4. Repeat steps 1-3 until no more swaps are needed; now the list is sorted.\r\n\r\n<b>Big O Notation:</b> O(n^2)\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/3sO6Vo\">http://bit.ly/3sO6Vo</a>\r\n    \t",
+    "Category": "General Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "Explain the Quick Sort algorithm.",
+    "Answer": "The Quick Sort is a divide and conquer algorithm that works like this:\r\n    \t\r\n1. Pick an element, called a pivot, from the list.\r\n2. Reorder the list so that all elements with values less than the pivot come before the pivot; all elements with values greater than the pivot come after it. Equal values can go either way. The pivot is now in its final position.\r\n3. Recursively sort the sub-list of lesser elements and the sub-list of greater elements. \r\n\r\n<b>Big O Notation:</b> \r\nO(n log n) - average\r\nO(n^2) - worst case\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/dzoNto\">http://bit.ly/dzoNto</a>\r\n    \t",
+    "Category": "General Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "Explain Big O Notation.",
+    "Answer": "The easiest way to explain Big O Notation is that it's used to classify algorithms based on the time it takes them to complete.\r\n    \t\r\n<b>O(1)</b>\r\nThe time for an O(1) algorithm is unaffected by the number of elements in the collection.\r\n\r\n<b>O(n)</b>\r\nThe time for an O(n) algorithm increases linearly with the number of elements in the collection.\r\n\r\n<b>O(n^2)</b>\r\nThe time for an O(n^2) algorithm increases as the square of the number of elements in the collection.\r\n\r\nThere are many other notations. For more information, see the following wikipedia article:\r\n<a target=\"_blank\" href=\"#http://bit.ly/45AOyT\">http://bit.ly/45AOyT</a>\r\n    \t",
+    "Category": "General Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "What is the decimal equivalent of the binary number 10010101?",
+    "Answer": "149.\r\n\r\nThe binary numeral system, also known as the base-2 number system, represents numeric values using two symbols: 0 and 1.\r\n\r\n<pre>\r\n1   0   0   1   0   1   0   1\r\n|   |   |   |   |   |   |   |\r\n128 64  32  16  8   4   2   1\r\n</pre>\r\nSo to convert 10010101 to decimal we look at the 1s and add their decimal values together:\r\n\r\n<pre>\r\n128 + 16 + 4 + 1 = 149\r\n</pre>\r\n<a target=\"_blank\" href=\"#http://bit.ly/16BeW\">http://bit.ly/16BeW</a>\r\n\r\n    \t",
+    "Category": "General Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "What is a Linked List?",
+    "Answer": "A linked list is a data structure for storing a sequence of objects which allows efficient addition, removal, and retrieval from any position in the sequence. It is implemented as nodes, where each node contains a reference to the next (and/or previous) node in the sequence.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/6ad6Zm\">http://bit.ly/6ad6Zm</a>\r\n\r\n    \t",
+    "Category": "General Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "What is ALT.NET?",
+    "Answer": "ALT.NET is a community of individuals who look for alternative tools and approaches to the mainstream ways that most .NET developers typically use. They borrow ideas from other languages like Java and Ruby. Some more cynical developers might say that they've \"chosen not to drink the Microsoft kool-aid.\"\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/1dWShq\">http://bit.ly/1dWShq</a>\r\n\r\n    \t",
+    "Category": "General Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "What is data abstraction?",
+    "Answer": "Abstraction is a concept, usually obtained through encapsulation and polymorphism, that can simplify complex code and help reduce code duplication. \r\n\r\nFor example, if I have a Dog class, a Cat class, a Mouse class, and a Horse class, and they all have a run() method (that does the same thing for each), why not abstract that out and put run() into an Animal class? \r\n\r\nThen you could have the Dog, Cat, Mouse, and Horse inherit from the Animal base class. Now run() is only defined in one place, which makes it much more maintainable, and when you need a Cat object, you can use a Cat object. When you need to work at a higher level, you can use the Animal object. We just abstracted what was common between the objects and prevented code duplication.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Object-oriented_programming\">http://en.wikipedia.org/wiki/Object-oriented_programming</a>\r\n\r\n    ",
+    "Category": "OOP",
+    "Disabled": false
+  },
+  {
+    "Question": "What is encapsulation?",
+    "Answer": "Encapsulation conceals details. Suppose you have a Robot object with a walk() method, and inside the walk() method, there could be a lot of Rube Goldberg-esque things going on – sprockets turning, transistors heating up, bowling balls rolling around, etc. All that stuff is hidden from the programmer who uses the Robot object. All he has to know is that he calls myRobot.walk() and his Robot walks. That's encapsulation.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Object-oriented_programming\">http://en.wikipedia.org/wiki/Object-oriented_programming</a>\r\n\r\n    ",
+    "Category": "OOP",
+    "Disabled": false
+  },
+  {
+    "Question": "How are abstraction and encapsulation related?",
+    "Answer": "Abstraction is the idea of defining or understanding a particular 'thing' (whatever that may be) through its essential properties or behaviors. Encapsulation is just one way to achieve abstraction.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Object-oriented_programming\">http://en.wikipedia.org/wiki/Object-oriented_programming</a>\r\n\r\n    ",
+    "Category": "OOP",
+    "Disabled": false
+  },
+  {
+    "Question": "What is polymorphism?",
+    "Answer": "Polymorphism is the ability to treat one class as if it were another class (usually through shared interfaces or inheritance).\r\n\r\nSuppose you have an IAnimal interface that defines a speak() method, a Dog object that implements IAnimal, and a Cat object that implements IAnimal. Calling speak() on the Dog object may elicit a bark(), and calling speak() on the Cat object may elicit a meow(). You may even have a Pig that implements IAnimal and calling speak() could elicit an oink() internally.\r\n\r\nYou could then create a generic List<IAnimal> and loop through all the animals, no matter what specific type they are, and call speak(). The results might be: Ruff! Meow! Oink!\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Object-oriented_programming\">http://en.wikipedia.org/wiki/Object-oriented_programming</a>\r\n\r\n    ",
+    "Category": "OOP",
+    "Disabled": false
+  },
+  {
+    "Question": "What is inheritance?",
+    "Answer": "It's what you get when your rich uncle dies.\r\n\r\n<i>Or...</i>\r\n\r\nInheritance is a way to form new classes from classes that have already been defined.\r\n\r\nFor example, if you have an Animal class with a run() method, you could create a Dog class that inherits from Animal, and programmers would be able to call the run() method on the Dog object without you having to write the code for it.\r\n\r\nThe new classes are called sub classes, and the pre-existing classes are called parent classes, super classes, ancestor classes, or base classes.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Object-oriented_programming\">http://en.wikipedia.org/wiki/Object-oriented_programming</a>\r\n\r\n    ",
+    "Category": "OOP",
+    "Disabled": false
+  },
+  {
+    "Question": "What is SOLID?",
+    "Answer": "SOLID is a mnemonic acronym introduced by Bob Martin in the early 2000s which stands for five basic principles of object-oriented programming and design.\r\n\r\n<pre>\r\n<b>S</b> - SRP - Single Responsibility Principle\r\n<b>O</b> - OCP - Open/Closed Principle\r\n<b>L</b> - LSP - Liskov Substitution Principle\r\n<b>I</b> - ISP - Interface Segregation Principle\r\n<b>D</b> - DIP - Dependency Inversion Principle\r\n</pre>\r\n<a target=\"_blank\" href=\"#http://bit.ly/wiki-solid\">http://bit.ly/wiki-solid</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/solid-intro\">http://bit.ly/solid-intro</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/pdf-designprinciples\">http://bit.ly/pdf-designprinciples</a>\r\n\r\n    ",
+    "Category": "OOP",
+    "Disabled": false
+  },
+  {
+    "Question": "Describe the Single Responsibility Principle.",
+    "Answer": "The Single Responsibility Principle (SRP) is the notion that an object should have only a single responsibility.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/wiki-solid\">http://bit.ly/wiki-solid</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/solid-intro\">http://bit.ly/solid-intro</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/pdf-designprinciples\">http://bit.ly/pdf-designprinciples</a>\r\n\r\n    ",
+    "Category": "OOP",
+    "Disabled": false
+  },
+  {
+    "Question": "Describe the Open/Closed Principle.",
+    "Answer": "The Open/Closed Principle (OCP) is the notion that software should be open for extension, but closed for modification.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/wiki-solid\">http://bit.ly/wiki-solid</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/solid-intro\">http://bit.ly/solid-intro</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/pdf-designprinciples\">http://bit.ly/pdf-designprinciples</a>\r\n\r\n    ",
+    "Category": "OOP",
+    "Disabled": false
+  },
+  {
+    "Question": "Describe the Liskov Substitution Principle.",
+    "Answer": "Liskov Substitution Principle (LSP) is the notion that a subclass should behave nicely when used in place of its base class.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/wiki-solid\">http://bit.ly/wiki-solid</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/solid-intro\">http://bit.ly/solid-intro</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/pdf-designprinciples\">http://bit.ly/pdf-designprinciples</a>\r\n\r\n    ",
+    "Category": "OOP",
+    "Disabled": false
+  },
+  {
+    "Question": "Describe the Interface Segregation Principle.",
+    "Answer": "Interface Segregation Principle (ISP) is the notion that many client specific interfaces are better than one general purpose interface.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/wiki-solid\">http://bit.ly/wiki-solid</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/solid-intro\">http://bit.ly/solid-intro</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/pdf-designprinciples\">http://bit.ly/pdf-designprinciples</a>\r\n\r\n    ",
+    "Category": "OOP",
+    "Disabled": false
+  },
+  {
+    "Question": "Describe the Dependency Inversion Principle.",
+    "Answer": "Dependency Inversion Principle (DIP) is the notion that one should depend upon abstractions. Do not depend upon concretions. Dependency injection is one method of following this principle.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/wiki-solid\">http://bit.ly/wiki-solid</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/solid-intro\">http://bit.ly/solid-intro</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/pdf-designprinciples\">http://bit.ly/pdf-designprinciples</a>\r\n\r\n    ",
+    "Category": "OOP",
+    "Disabled": false
+  },
+  {
+    "Question": "Is Visual Studio required to create .NET applications?",
+    "Answer": "No, it just makes things easier. You could write your code in Notepad and use the command line compiler if you wanted.\r\n\r\n    ",
+    "Category": ".NET",
+    "Disabled": false
+  },
+  {
+    "Question": "Who is Scott Guthrie?",
+    "Answer": "Almost always seen wearing a red shirt, Scott Guthrie is corporate vice president of Microsoft's .NET Developer Platform, where he runs the development teams responsible for delivering Microsoft Visual Studio developer tools and Microsoft .NET Framework technologies for building client and web applications.\r\n\r\nA founding member of the .NET project, Guthrie has played a key role in the design and development of Visual Studio and the .NET Framework since 1999. Guthrie is also responsible for Microsoft's web server platform and development tools teams. He has also more recently driven the development of Silverlight.\r\n\r\nToday, Guthrie directly manages the development teams that build the Common Language Runtime (CLR), ASP.NET, Silverlight, Windows Presentation Foundation, IIS, Commerce Server, and Visual Studio.\r\n\r\n<a target=\"_blank\" href=\"#http://weblogs.asp.net/scottgu/\">http://weblogs.asp.net/scottgu/</a>\r\n\r\n<a target=\"_blank\" href=\"#http://twitter.com/scottgu\">twitter.com/scottgu</a>\r\n\r\n    ",
+    "Category": ".NET",
+    "Disabled": false
+  },
+  {
+    "Question": "What is the difference between an EXE and a DLL?",
+    "Answer": "\r\nAn EXE is an executable program. A DLL is a library that contains code and data that can be used by more than one program at the same time..\r\n\r\n    ",
+    "Category": ".NET",
+    "Disabled": false
+  },
+  {
+    "Question": "What's new in .NET 4.0?",
+    "Answer": "\r\n<i>The idea with this question is not to see if you can list every new feature, but to see if you are the kind of developer that keeps up with the latest developments.</i>\r\n\r\nBetter garbage collection, code contracts, the Dynamic Language Runtime, covariance, contravariance, Managed Extensibility Framework, a new parallel programming model, and a lot more.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/whatsnewdotnet4\">http://bit.ly/whatsnewdotnet4</a>\r\n\r\n    ",
+    "Category": ".NET",
+    "Disabled": false
+  },
+  {
+    "Question": "What is NuGet?",
+    "Answer": "NuGet (formerly NuPack) is a free open source package manager designed to simplify the process of incorporating third party libraries into a .NET application.\r\n\r\nIt automates the tedious steps of figuring out which version of the library you should download, adding a reference to your project, and configuring any default settings. NuGet aims to let you add these libraries quickly and easily so you can start using them immediately, rather than spending time trying to configure them to get them to work.\r\n\r\n<a target=\"_blank\" href=\"#http://nuget.org/\">http://nuget.org/</a>\r\n\r\n    ",
+    "Category": ".NET",
+    "Disabled": false
+  },
+  {
+    "Question": "What is DLL Hell? How can it be prevented in .NET?",
+    "Answer": "There are lots of problems commonly encountered with DLLs – especially after numerous applications have been installed and uninstalled on a system. The difficulties include conflicts between DLL versions, difficulty in obtaining required DLLs, and having many unnecessary DLL copies. DLL Hell is the common name developers have given to this range of problems.\r\n\r\nIn .NET, we have the Global Assembly Cache, or GAC, which can store multiple versions of DLLs, and the Common Language Runtime (CLR) which has moved a lot of DLL code into a base foundation class.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/DLL_hell\">http://en.wikipedia.org/wiki/DLL_hell</a>\r\n\r\n    ",
+    "Category": ".NET",
+    "Disabled": false
+  },
+  {
+    "Question": "What is the GAC?",
+    "Answer": "GAC stands for Global Assembly Cache. It is a central repository for strongly named .NET assemblies and helps prevent DLL Hell.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/mdsn_gac\">http://bit.ly/mdsn_gac</a>\r\n\r\n    ",
+    "Category": ".NET",
+    "Disabled": false
+  },
+  {
+    "Question": "What is a strong name?",
+    "Answer": "A strong name is a unique identifier for an assembly. It gives an assembly versioning and naming protection, and allows it to be put into the GAC. Two assemblies with the same strong name are expected to be identical.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/msdn_strongnames\">http://bit.ly/msdn_strongnames</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/howtosignwithstrongname\">http://bit.ly/howtosignwithstrongname</a>\r\n\r\n    ",
+    "Category": ".NET",
+    "Disabled": false
+  },
+  {
+    "Question": "What's the difference between value types and reference types?",
+    "Answer": "Value types contain values directly and copying one value type variable to another copies the value itself. There are two main kinds of value types: structs and enumerations. There are built-in structs and enumerations, or you can define your own. \r\n\r\nReference types are generally known as objects. They store references to their data (as pointers to addresses on the stack). The actual data is stored on the heap. If you copy one reference type variable to another, the actual data isn't copied – only the reference to that data.\r\n\r\n    ",
+    "Category": ".NET",
+    "Disabled": false
+  },
+  {
+    "Question": "When would a variable be stored on the stack and when would a variable be stored on the heap?",
+    "Answer": "Generally, value type variables go on the stack, and reference type variables go on the heap. Note that local reference type variables go on the stack, but their actual data is still on the heap. Static variables are always stored on the heap, regardless of whether they are value types or reference types.\r\n\r\nAlso, it depends on where the variable is declared. For example, a Value Type variable that is declared as an instance field of a class will go on the heap.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/memoryindotnet\">http://bit.ly/memoryindotnet</a>\r\n\r\n    ",
+    "Category": ".NET",
+    "Disabled": false
+  },
+  {
+    "Question": "What is boxing and unboxing? Give examples.",
+    "Answer": "Boxing converts a value type to a reference type. Unboxing converts a reference type to a value type.\r\n\r\n<pre>\r\n// Boxing\r\nint x = 25;\r\n// implicit boxing\r\nobject o1 = x; \r\n// explicit boxing\r\nobject o2 = (object)x;\r\n\r\n// Unboxing\r\nint y = (int)o2;\r\n</pre>\r\n    ",
+    "Category": ".NET",
+    "Disabled": false
+  },
+  {
+    "Question": "Give me an example of a class in the .NET Framework that uses generics.\r\n\r\n    ",
+    "Answer": "List&lt;T&gt; (That's pronounced List Of T.)\r\n\r\n    ",
+    "Category": ".NET",
+    "Disabled": false
+  },
+  {
+    "Question": "What is the difference between Globalization and Localization?",
+    "Answer": "<b>Globalization</b> is the process of making your application culture-agnostic.\r\n    \r\n<b>Localization</b> is the process of adding translations and doing whatever else it takes to make your application actually work for a specific culture and locale.\r\n    \r\n<a target=\"_blank\" href=\"#http://bit.ly/3bVQFb\">http://bit.ly/3bVQFb</a>\r\n    ",
+    "Category": ".NET",
+    "Disabled": false
+  },
+  {
+    "Question": "What is mono?",
+    "Answer": "mono is an open source, cross-platform implementation of C# and the CLR that is binary compatible with Microsoft .NET. It's typically used in LAMP environments where there is no access to Microsoft server software, but developers still want to use C# and the .NET framework.\r\n    \t\r\n<a target=\"_blank\" href=\"#http://www.mono-project.com\">http://www.mono-project.com</a>\r\n    ",
+    "Category": ".NET",
+    "Disabled": false
+  },
+  {
+    "Question": "What is .NET Reflector?",
+    "Answer": ".NET Reflector is a software utility for Microsoft .NET combining class browsing, static analysis, and decompilation. MSDN Magazine named it as one of the Ten Must-Have utilities for developers. Scott Hanselman included it in his Big Ten Life and Work-Changing Utilities, writing: \"If you haven't heard of Reflector you're probably not a .NET developer.\"\r\n\r\n<a target=\"_blank\" href=\"#http://www.red-gate.com/products/reflector\">http://www.red-gate.com</a>\r\n    ",
+    "Category": ".NET",
+    "Disabled": false
+  },
+  {
+    "Question": "What's new in C# 4.0?\r\n\r\n    ",
+    "Answer": "<i>The idea with this question is not to see if you can list every new feature, but to see if you are the kind of developer that keeps up with the latest developments.</i>\r\n\r\nDynamic binding, type variance, optional parameters, named arguments, and more.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/csharp4whatsnew\">http://bit.ly/csharp4whatsnew</a>\r\n\r\n    ",
+    "Category": "C#",
+    "Disabled": false
+  },
+  {
+    "Question": "What's the difference between the using directive and the using() statement?\r\n\r\n    ",
+    "Answer": "The using directive allows you to use types in a namespace without having to type out the fully qualified namespace. The using statement is a convenient way of disposing of objects that implement IDisposable.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/csharpusingdirective\">http://bit.ly/csharpusingdirective</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/csharpusingstatement\">http://bit.ly/csharpusingstatement</a>\r\n\r\n    ",
+    "Category": "C#",
+    "Disabled": false
+  },
+  {
+    "Question": "What's the syntax for creating an array in C#?\r\n\r\n    ",
+    "Answer": "\r\n<pre>\r\nstring[] names = new string[3];\r\nnames[0] = \"Alvin\";\r\nnames[1] = \"Simon\";\r\nnames[2] = \"Theodore\";\r\n\r\n// Or... \r\n\r\nstring[] names = {\"Alvin\", \"Simon\", \"Theodore\"};\r\n</pre>\r\n\r\n    ",
+    "Category": "C#",
+    "Disabled": false
+  },
+  {
+    "Question": "Explain public, internal, private, and protected.\r\n\r\n    ",
+    "Answer": "These are all access modifiers for a member or type:\r\n\r\n<b>public</b> means unrestricted access\r\n\r\n<b>protected</b> means access is limited to the containing class or types derived from the containing class\r\n\r\n<b>internal</b> means access is limited to the current assembly\r\n\r\n<b>private</b> means access is limited to the containing type\r\n\r\n<b>protected internal</b> means access is limited to the current assembly or types derived from the containing class\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/csharpaccessmodifiers\">http://bit.ly/csharpaccessmodifiers</a>\r\n\r\n    ",
+    "Category": "C#",
+    "Disabled": false
+  },
+  {
+    "Question": "What's the syntax for an object initializer in C#?\r\n\r\n    ",
+    "Answer": "\r\n<pre>\r\npublic class Person\r\n{\r\n  public string Name;\r\n  public int Age;\r\n}\r\n\r\n...\r\n\r\nvar p = new Person() { Name = \"Dave\", Age = 32 };\r\n\r\n// which is equivalent to this:\r\nvar p = new Person();\r\np.Name = \"Dave\";\r\np.Age = 32;\r\n</pre>\r\n    ",
+    "Category": "C#",
+    "Disabled": false
+  },
+  {
+    "Question": "What's the syntax for an anonymous type in C#?",
+    "Answer": "\r\n<pre>\r\nvar person = new { Name = \"Dave\", Age = 32 };\r\n</pre>\r\n<a target=\"_blank\" href=\"#http://bit.ly/r7yuBb\">http://bit.ly/r7yuBb</a>\r\n    ",
+    "Category": "C#",
+    "Disabled": false
+  },
+  {
+    "Question": "What is the purpose of the var keyword in C#?",
+    "Answer": "var allows a variable to be <i>implicitly typed</i>. An implicitly typed local variable is strongly typed (by the compiler) as if you had declared the type yourself.\r\n\r\n<pre>\r\nvar age = 32; // implicit\r\nint age = 32; // explicit\r\n</pre>\r\nYou must use var to reference an anonymous type because the type will be generated by the compiler.\r\n\r\n<pre>\r\nvar person = new { Name = \"Dave\", Age = 32};\r\n</pre>\r\n<a target=\"_blank\" href=\"#http://bit.ly/MWqWb\">http://bit.ly/MWqWb</a>\r\n    ",
+    "Category": "C#",
+    "Disabled": false
+  },
+  {
+    "Question": "What's the syntax for an automatic property in C#?",
+    "Answer": "\r\n<pre>\r\npublic string Prop { get; set; }\r\n</pre>\r\n    ",
+    "Category": "C#",
+    "Disabled": false
+  },
+  {
+    "Question": "What's new in Visual Basic 2010?\r\n\r\n    ",
+    "Answer": "<i>The idea with this question is not to see if you can list every new feature, but to see if you are the kind of developer that keeps up with the latest developments.</i>\r\n\r\nLet's see... Implicit line continuations, statement lambda expressions, automatic properties, collection initializers, the Dynamic Language Runtime, array literals, generic type variance, and more.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/vb2010whatsnew\">http://bit.ly/vb2010whatsnew</a>\r\n\r\n    ",
+    "Category": "VB.NET",
+    "Disabled": false
+  },
+  {
+    "Question": "What's the syntax for creating an array in VB.NET?\r\n\r\n    ",
+    "Answer": "\r\n<pre>\r\nDim names(3) As String\r\nnames(0) = \"Alvin\"\r\nnames(1) = \"Simon\"\r\nnames(2) = \"Theodore\"\r\n\r\n' Or...\r\n\r\nDim names() As String = {\"Alvin\", \"Simon\", \"Theodore\"}\r\n\r\n' Or in VB2010...\r\nDim names = {\"Alvin\", \"Simon\", \"Theodore\"}\r\n</pre>\r\n\r\n    ",
+    "Category": "VB.NET",
+    "Disabled": false
+  },
+  {
+    "Question": "Explain Public, Friend, Private, and Protected.\r\n\r\n    ",
+    "Answer": "These are all access modifiers for a member or type: \r\n\r\n<b>Public</b> means unrestricted access\r\n\r\n<b>Protected</b> means access is limited to the containing class or types derived from the containing class\r\n\r\n<b>Friend</b> means access is limited to the current assembly\r\n\r\n<b>Private</b> means access is limited to the containing type\r\n\r\n<b>Protected Friend</b> means access is limited to the current assembly or types derived from the containing class.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/vbaccessmodifiers\">http://bit.ly/vbaccessmodifiers</a>\r\n\r\n    ",
+    "Category": "VB.NET",
+    "Disabled": false
+  },
+  {
+    "Question": "What's the syntax for an object initializer in VB.NET?\r\n\r\n    ",
+    "Answer": "\r\n<pre>\r\nPublic Class Person\r\n  Public Name As String\r\n  Public Age As Integer\r\nEnd Class\r\n\r\n...\r\n\r\nDim p As New Person() With { .Name = \"Dave\", \r\n.Age = 32 }\r\n\r\n' Which is equivalent to:\r\nDim p As New Person()\r\np.Name = \"Dave\"\r\np.Age = 32\r\n</pre>\r\n\r\n    ",
+    "Category": "VB.NET",
+    "Disabled": false
+  },
+  {
+    "Question": "What's the syntax for an anonymous type in VB.NET?",
+    "Answer": "\r\n<pre>\r\nDim person = New With { .Name = \"Dave\", .Age = 32 };\r\n</pre>\r\n<a target=\"_blank\" href=\"#http://bit.ly/r7yuBb\">http://bit.ly/r7yuBb</a>\r\n    ",
+    "Category": "VB.NET",
+    "Disabled": false
+  },
+  {
+    "Question": "On what types of objects can I query with LINQ?\r\n\r\n    ",
+    "Answer": "Any collection object that implements IEnumerable<T>.\r\n\r\n    ",
+    "Category": "LINQ",
+    "Disabled": false
+  },
+  {
+    "Question": "What is PLINQ?\r\n\r\n    ",
+    "Answer": "PLINQ stands for Parallel LINQ. It's a parallel execution engine for LINQ queries. Collection objects must implement IParallelEnumerable<T> in order to to use PLINQ.\r\n\r\n    ",
+    "Category": "LINQ",
+    "Disabled": false
+  },
+  {
+    "Question": "What is LINQ to Entities?\r\n\r\n    ",
+    "Answer": "LINQ to Entities converts LINQ queries to command tree queries, executes the queries against the ADO.NET Entity Framework, and returns objects that can be used by both the Entity Framework and LINQ.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/linqtoentities\">http://bit.ly/linqtoentities</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/entityframework\">http://bit.ly/entityframework</a>\r\n\r\n    ",
+    "Category": "LINQ",
+    "Disabled": false
+  },
+  {
+    "Question": "Can you name any projects or applications in the real world that use LINQ to SQL?\r\n\r\n    ",
+    "Answer": "StackOverflow.com uses LINQ to SQL.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/stackoverflowlinqtosql\">http://bit.ly/stackoverflowlinqtosql</a>\r\n\r\n    ",
+    "Category": "LINQ",
+    "Disabled": false
+  },
+  {
+    "Question": "What is normalization?\r\n\r\n    ",
+    "Answer": "Normalization is a systematic way of ensuring that a database structure is suitable for general-purpose querying and free of certain undesirable characteristics—insertion, update, and deletion anomalies—that could lead to a loss of data integrity. It usually involves dividing a database into multiple tables and defining relationships between the tables.\r\n\r\n    ",
+    "Category": "SQL",
+    "Disabled": false
+  },
+  {
+    "Question": "What is the difference between a clustered index and a non-clustered index?\r\n\r\n    ",
+    "Answer": "A clustered index reorders the way records in the table are physically stored. A table can have only one clustered index. The leaf nodes of a clustered index contain the data pages.\r\n\r\nIn a nonclustered index the logical order of the index does not match the physical stored order of the rows on disk. The leaf nodes of a nonclustered index do not consist of the data pages. Instead, the leaf nodes contain index rows.\r\n\r\n    ",
+    "Category": "SQL",
+    "Disabled": false
+  },
+  {
+    "Question": "What is the difference between a function and a stored procedure?\r\n\r\n    ",
+    "Answer": "There are several differences, but I think the main ones are that you can't SELECT from a sproc; you can from a function. You can't return a sproc from a SELECT; you can from a function. You can't join to a sproc; you can from a function.\r\n\r\nStored procedures aren't totally lame, though. They can generally do a bit more than a function, although you have to use EXECUTE or EXEC to make them do it. Functions must return a value, but sprocs do not, so you can use them for performing operations (like INSERTs, UPDATEs, or DELETEs) that don't require anything to be returned afterward.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Stored_procedure\">http://en.wikipedia.org/wiki/Stored_procedure</a>\r\n\r\n    ",
+    "Category": "SQL",
+    "Disabled": false
+  },
+  {
+    "Question": "Have you heard of NoSQL? Can you explain it in broad terms?\r\n\r\n    ",
+    "Answer": "NoSQL is what people are calling database management systems that differ from classic relational database management systems in significant ways. Typically these databases are referred to as structured storage. They may not have fixed table schemas or join operations for example.\r\n    \t\r\n<a target=\"_blank\" href=\"#http://bit.ly/wiki-nosql\">http://bit.ly/wiki-nosql</a>\r\n    ",
+    "Category": "SQL",
+    "Disabled": false
+  },
+  {
+    "Question": "Suppose I want to store some non-well-formed HTML in an XML document. Won't the HTML tags cause the XML to be invalid? What can I do?\r\n\r\n    ",
+    "Answer": "Yes, the HTML tags will screw it up, unless you wrap that HTML in a CDATA. Any text inside a CDATA section will be ignored by the XML parser. Here's an example.\r\n\r\n<pre>\r\n&lt;message&gt;\r\n&lt;![CDATA[\r\nYo!\r\n&lt;p&gt;\r\n&lt;b&gt;Wassup, homey?&lt;/b&gt;&lt;br&gt;\r\nYou & me should hit the club tonight!\r\n]]&gt;\r\n&lt;/message&gt;\r\n</pre>\r\n\r\n    ",
+    "Category": "XML",
+    "Disabled": false
+  },
+  {
+    "Question": "Describe the differences between HTML and XML.\r\n\r\n    ",
+    "Answer": "HTML has a defined set of tags designed specifically for the web; XML allows user definable tags. HTML doesn't always require end tags; XML does. HTML doesn't require quotes around attributes; XML does. HTML doesn't require a slash for empty tags like &lt;br&gt;; XML does.\r\n\r\n    ",
+    "Category": "XML",
+    "Disabled": false
+  },
+  {
+    "Question": "Describe the role that XSL can play when dynamically generating HTML pages from a relational database.\r\n\r\n    ",
+    "Answer": "This is a common scenario with XML. You could use an XSLT to transform the XML data being returned into whatever HTML you wish. Maybe it's a table of book data. If someone decides at a later date that they no longer want to see the ISBN number in the table, all the developer has to do is modify the XSLT. No need to change the query or any code on the web page.\r\n\r\n    ",
+    "Category": "XML",
+    "Disabled": false
+  },
+  {
+    "Question": "Give some real world examples of applications that could benefit from using XML.\r\n\r\n    ",
+    "Answer": "Oh, there are tons. A content management system might use XML to store its data. No database is needed, and the CMS can use XSLT to convert the XML into the appropriate format – HTML, RSS, Excel, etc.\r\n\r\nAnother example is tax form software. The tax rules change every year, and there are tons of forms. When saving the user's input, it would make more sense to simply store the data in XML, rather than try to create a database structure that could store every possible input field.\r\n\r\n    ",
+    "Category": "XML",
+    "Disabled": false
+  },
+  {
+    "Question": "Using XSLT, how would you extract a specific attribute from an element in an XML document?\r\n\r\n    ",
+    "Answer": "\r\n<pre>\r\n&lt;xsl:template match=\"element-name\"&gt;\r\n  Attribute Value:\r\n    &lt;xsl:value-of select=\"@attribute\"/&gt;\r\n    &lt;xsl:apply-templates/&gt;\r\n&lt;/xsl:template&gt;\r\n</pre>\r\n\r\n    ",
+    "Category": "XML",
+    "Disabled": false
+  },
+  {
+    "Question": "In ASP.NET, what is a PostBack?\r\n\r\n    ",
+    "Answer": "A PostBack is an HTTP Post that sends form data to a server for processing. After processing the data, the server returns a new page to the client.\r\n\r\n    ",
+    "Category": "ASP.NET",
+    "Disabled": false
+  },
+  {
+    "Question": "What is ViewState in ASP.NET?\r\n\r\n    ",
+    "Answer": "That's the page level state management in Web Forms. It's used by ASP.NET to maintain the state of web form controls or whatever else you want to store in ViewState.\r\n\r\nViewState can sometimes bloat the size of a page unnecessarily. I'm glad that ASP.NET 4.0 allows you to turn it off at the control level instead of only at the page level.\r\n\r\nMaybe they have the right idea with ASP.NET MVC – no ViewState at all.\r\n\r\n    ",
+    "Category": "ASP.NET",
+    "Disabled": false
+  },
+  {
+    "Question": "What is ELMAH?",
+    "Answer": "\r\nELMAH (Error Logging Modules and Handlers) is an application-wide error logging facility. It's a great way to log various bits of information for an ASP.NET web application. It's very popular and is often used as the example when someone from Microsoft demonstrates the NuGet package manager.\r\n\r\n<a target=\"_blank\" href=\"#http://code.google.com/p/elmah/\">http://code.google.com/p/elmah/</a> \r\n\r\n    ",
+    "Category": "ASP.NET",
+    "Disabled": false
+  },
+  {
+    "Question": "Do you prefer ASP.NET MVC or Web Forms? Why?\r\n\r\n    ",
+    "Answer": "<i>The answer depends on your personal opinion, but assuming you liked MVC better:</i>\r\n\r\nI used to be all about Web Forms, but now I'm really digging MVC. I like that there is a clear separation of concerns and that unit testing is so much easier.\r\n\r\n<i>If you have little to no experience with MVC:</i>\r\n\r\nRight now I'd have to say I still prefer Web Forms, but that's only because I don't have enough experience with MVC yet.\r\n\r\n    ",
+    "Category": "ASP.NET",
+    "Disabled": false
+  },
+  {
+    "Question": "What's the difference between an HTTP Module and an HTTP Handler?\r\n\r\n    ",
+    "Answer": "<i>While a request is being processed, each request is processed by multiple HTTP modules (for example, the authentication module and the session module) and is then processed by a single HTTP handler. After the handler has processed the request, the request flows back through the HTTP modules.</i>\r\n\r\nHTTP Handlers are usually used to create PDFs or custom images.  Then you can do things like this...\r\n\r\n<pre>\r\n&lt;img src=\"Watermark.ashx?img=someImage.png\" /&gt;\r\n</pre>\r\n<i>Then explain:</i>\r\n\r\nIn this case, Watermark.ashx is a handler that takes an image and adds a watermark to it, then spits an image back out to the web response stream.\r\n\r\nHTTP Modules are usually used to handle things like security or logging.  For example, you might create an HTTP Module that ensures the user is authenticated before any page is loaded.  Or you might setup an HTTP Module so that if a user gets an error anywhere on the site, it will be logged.\r\n\r\n<a target=\"_blank\" href=\"#http://support.microsoft.com/kb/307985\">http://support.microsoft.com/kb/307985</a>\r\n\r\n<a target=\"_blank\" href=\"#http://www.15seconds.com/Issue/020417.htm\">http://www.15seconds.com/Issue/020417.htm</a>\r\n\r\n    ",
+    "Category": "ASP.NET",
+    "Disabled": false
+  },
+  {
+    "Question": "Can you describe the ASP.NET Page Life-Cycle?\r\n\r\n    ",
+    "Answer": "First ASP.NET determines whether to return a cached version of the page or not.\r\n\r\nThen the Request and Response are set and the page determines whether the request is a postback.\r\n\r\nNext, controls are initialized; themes and master pages are applied.\r\n\r\nAfter initialization, the controls are actually loaded with information (from session or viewstate or whereever).\r\n\r\nThen, if the request is a postback, the postback events are handled.\r\n\r\nThe page is rendered...\r\n\r\nAnd finally, the page is unloaded.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/aspnet-pagelifecycle\">http://bit.ly/aspnet-pagelifecycle</a>\r\n\r\n    ",
+    "Category": "ASP.NET",
+    "Disabled": false
+  },
+  {
+    "Question": "Can you tell me the common ASP.NET Page Life-Cycle events?\r\n\r\n    ",
+    "Answer": "PreInit, Init, InitComplete. PreLoad, Load, Control Events, LoadComplete. PreRender, PreRenderComplete. SaveStateComplete, Render, and Unload.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/aspnet-pagelifecycle\">http://bit.ly/aspnet-pagelifecycle</a>\r\n\r\n    ",
+    "Category": "ASP.NET",
+    "Disabled": false
+  },
+  {
+    "Question": "What is the Razor View Engine?",
+    "Answer": "The Razor View Engine can be used in place of the standard ASP.NET Web Forms View Engine when adding server side code to the HTML of an ASP.NET web page.\r\n\r\n<b>Web Forms Syntax</b>\r\n<pre>\r\nHello &lt;%=name %&gt;.\r\nIt's &lt;%= DateTime.Now.Year %&gt;\r\n</pre>\r\n<b>Razor Syntax</b>\r\n<pre>\r\nHello @name.\r\nIt's @DateTime.Now.Year\r\n</pre>\r\n<b>Web Forms Syntax</b>\r\n<pre>\r\n&lt;% if (foo) { %&gt;\r\n  Plain Text\r\n&lt;% } %&gt;\r\n</pre>\r\n<b>Razor Syntax</b>\r\n<pre>\r\n@if (foo) {\r\n  &lt;text&gt;Plain Text&lt;/text&gt;\r\n}\r\n</pre>\r\n<a target=\"_blank\" href=\"#http://weblogs.asp.net/scottgu/archive/2010/07/02/introducing-razor.aspx\">Introduction</a>\r\n\r\n<a target=\"_blank\" href=\"#http://haacked.com/archive/2011/01/06/razor-syntax-quick-reference.aspx\">Quick Reference</a>\r\n    ",
+    "Category": "ASP.NET",
+    "Disabled": false
+  },
+  {
+    "Question": "How would you implement output caching in ASP.NET for a page that shows products based on the id in the querystring? (ie. http://site.com/product.aspx?id=123)\r\n\r\n    ",
+    "Answer": "If we wanted to cache the output for 60 seconds, I would add an OutputCache page directive to the top of an .aspx page that looks something like this...\r\n\r\n<pre>\r\n&lt;%@ OutputCache Duration=\"60\" VaryByParam=\"id\" %&gt;\r\n</pre>\r\n\r\n    ",
+    "Category": "ASP.NET",
+    "Disabled": false
+  },
+  {
+    "Question": "Should user input be validated on the server-side or the client-side?\r\n\r\n    ",
+    "Answer": "It definitely shouldn't be only validated on the client-side, because that's not very secure. Someone could easily get around some javascript validation and post whatever they want.\r\n\r\nI would do it in both places. Do it on the client-side for speed (and to prevent a postback), then do it on the server-side for extra protection.\r\n\r\n    ",
+    "Category": "ASP.NET",
+    "Disabled": false
+  },
+  {
+    "Question": "I have to validate that a certain input box on an ASP.NET page was filled in with data, and that the data is a valid email address. What could I do?\r\n\r\n    ",
+    "Answer": "You could use ASP.NET validation controls. I would use a RequiredValidator and a RegularExpressionValidator.\r\n\r\n    ",
+    "Category": "ASP.NET",
+    "Disabled": false
+  },
+  {
+    "Question": "Suppose I have an input box on an ASP.NET page where a user types a Product Id, and I want to verify that the Product Id is valid and that product exists in the database. What could I do?\r\n\r\n    ",
+    "Answer": "You could use a CustomValidator and define your own validation logic.\r\n\r\n    ",
+    "Category": "ASP.NET",
+    "Disabled": false
+  },
+  {
+    "Question": "What are some popular Content Management Systems based on ASP.NET?",
+    "Answer": "Arguably the most popular Content Management System (CMS) available right now is Wordpress. It's highly extensible and has a huge community writing plugins and themes for it, however, it's written in PHP, and some folks would prefer a more Microsofty solution.\r\n\r\nHere are some of the most popular CMSs based on ASP.NET:\r\n\r\nDotNetNuke\r\n<a target=\"_blank\" href=\"#http://www.dotnetnuke.com/\">http://www.dotnetnuke.com/</a>\r\n\r\nUmbraco\r\n<a target=\"_blank\" href=\"#http://umbraco.com/\">http://umbraco.com/</a>\r\n\r\nOrchard\r\n<a target=\"_blank\" href=\"#http://orchardproject.net/\">http://orchardproject.net/</a>\r\n\r\nKentico\r\n<a target=\"_blank\" href=\"#http://www.kentico.com/\">http://www.kentico.com/</a>\r\n\r\nN2 CMS\r\n<a target=\"_blank\" href=\"#http://n2cms.com/\">http://n2cms.com/</a>\r\n\r\nSitefinity\r\n<a target=\"_blank\" href=\"#http://www.sitefinity.com/\">http://www.sitefinity.com/</a>\r\n    ",
+    "Category": "ASP.NET",
+    "Disabled": false
+  },
+  {
+    "Question": "In CSS, what is the difference between display:none and visibility:hidden?\r\n\r\n    ",
+    "Answer": "They both hide elements on a page, but display:none means the element in question will not appear on the page at all (although you could still interact with it via the DOM), and visibility:hidden means the element is not visible on the page, but space is still allocated for it on the page.\r\n\r\n    ",
+    "Category": "CSS",
+    "Disabled": false
+  },
+  {
+    "Question": "Have you ever used CSS expressions?\r\n\r\n    ",
+    "Answer": "I will hang my head in shame and admit that yes, I've used CSS expressions in the past, but only because back then I didn't know any better, and it was an internal project, so no one cared about browser compatibility. Everyone was on IE.\r\n\r\nI would never use them again, though. They're terrible for performance and IE-specific. Avoiding them is one of Yahoo's rules for High Performance Websites.\r\n\r\n<b>A CSS expression looks like this:</b>\r\n<pre>\r\nbackground-color: expression( \r\n  (new Date()).getHours() % 2 ? \"#B8D4FF\" : \"#F08A00\" );\r\n</pre>\r\n<a target=\"_blank\" href=\"#http://yhoo.it/bestpractices-cssexpressions\">http://yhoo.it/bestpractices-cssexpressions</a>\r\n\r\n    ",
+    "Category": "CSS",
+    "Disabled": false
+  },
+  {
+    "Question": "Give an example of a pseudo-class in CSS.\r\n\r\n    ",
+    "Answer": "Links have pseudo-classes like :link and :visited. You would apply :link to specify the style of links that haven't yet been visited, and you would apply :visited to specify the style of links that have already been visited. It would look like this...\r\n\r\n<pre>\r\na:visited { color: black; }\r\n</pre>\r\n\r\n    ",
+    "Category": "CSS",
+    "Disabled": false
+  },
+  {
+    "Question": "Give an example of a dynamic pseudo-class in CSS.\r\n\r\n    ",
+    "Answer": "An example would be an anchor tag that uses the :hover dynamic pseudo-class to change the color of its text when the user's mouse is hovering over it.\r\n\r\n<pre>\r\na:hover { color: red; }\r\n</pre>\r\n\r\n    ",
+    "Category": "CSS",
+    "Disabled": false
+  },
+  {
+    "Question": "How would you make all the links on a web page have no underline?\r\n\r\n    ",
+    "Answer": "\r\n<pre>\r\na { text-decoration: none; }\r\n</pre>\r\n\r\n    ",
+    "Category": "CSS",
+    "Disabled": false
+  },
+  {
+    "Question": "What is LESS?\r\n\r\n    ",
+    "Answer": "Similar to Sass, LESS extends CSS with dynamic behavior such as variables, mixins, operations and functions. LESS runs on both the client-side (IE 6+, Webkit, Firefox) and server-side, with Node.js.\r\n<pre>\r\n// LESS\r\n@color: #4D926F;\r\n\r\n#header {\r\n  color: @color;\r\n}\r\nh2 {\r\n  color: @color;\r\n}\r\n\r\n<b>Gets compiled into standard CSS:</b>\r\n\r\n#header {\r\n  color: #4D926F;\r\n}\r\nh2 {\r\n  color: #4D926F;\r\n}\r\n</pre>\r\n\r\n<a target=\"_blank\" href=\"#http://lesscss.org/\">http://lesscss.org/</a>\r\n    ",
+    "Category": "CSS",
+    "Disabled": false
+  },
+  {
+    "Question": "What is Sass (or SCSS)?\r\n\r\n    ",
+    "Answer": "Similar to LESS, Sass is an extension of CSS3, adding nested rules, variables, mixins, selector inheritance, and more. It’s translated to well-formatted, standard CSS using the command line tool or a web-framework plugin.\r\n\r\n<pre>\r\n// SCSS syntax:\r\n$blue: #3bbfce;\r\n$margin: 16px;\r\n\r\n.content-navigation {\r\n  border-color: $blue;\r\n  color:\r\n    darken($blue, 9%);\r\n}\r\n\r\n.border {\r\n  padding: $margin / 2;\r\n  margin: $margin / 2;\r\n  border-color: $blue;\r\n}\r\n\r\n<b>Gets compiled into standard CSS:</b>\r\n\r\n.content-navigation {\r\n  border-color: #3bbfce;\r\n  color: #2b9eab;\r\n}\r\n\r\n.border {\r\n  padding: 8px;\r\n  margin: 8px;\r\n  border-color: #3bbfce;\r\n}\r\n</pre>\r\n\r\n<a target=\"_blank\" href=\"#http://sass-lang.com/\">http://sass-lang.com/</a>\r\n    ",
+    "Category": "CSS",
+    "Disabled": false
+  },
+  {
+    "Question": "What is the proper doctype for an HTML5 web page?\r\n    ",
+    "Answer": "\r\n<pre>\r\n&lt;!DOCTYPE html&gt;\r\n</pre>\r\n\r\n    ",
+    "Category": "HTML/XHTML",
+    "Disabled": false
+  },
+  {
+    "Question": "What is quirks mode?\r\n\r\n    ",
+    "Answer": "Quirks mode is the mode some web browsers use for backwards compatibility if a web page omits the doctype declaration.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Quirks_mode\">http://en.wikipedia.org/wiki/Quirks_mode</a>\r\n\r\n    ",
+    "Category": "HTML/XHTML",
+    "Disabled": false
+  },
+  {
+    "Question": "How would I create a link that opens in a new window?\r\n\r\n    ",
+    "Answer": "\r\n<pre>\r\n&lt;a href=link.html target=\"_blank\"&gt;click me&lt;/a&gt;\r\n</pre>\r\n\r\n    ",
+    "Category": "HTML/XHTML",
+    "Disabled": false
+  },
+  {
+    "Question": "Who controls the standards for the web?\r\n\r\n    ",
+    "Answer": "The World Wide Web Consortium.\r\n\r\n<a target=\"_blank\" href=\"#http://www.w3.org/\">http://www.w3.org/</a>\r\n\r\n    ",
+    "Category": "HTML/XHTML",
+    "Disabled": false
+  },
+  {
+    "Question": "If I want the largest heading size for my text, which tag should I use?\r\n\r\n    ",
+    "Answer": "The &lt;h1&gt; tag.\r\n\r\n    ",
+    "Category": "HTML/XHTML",
+    "Disabled": false
+  },
+  {
+    "Question": "What is Semantic HTML?\r\n\r\n    ",
+    "Answer": "Semantic HTML means using tags for their implied meaning, as opposed to just using meaningless divs and spans everywhere.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Semantic_HTML\">http://en.wikipedia.org/wiki/Semantic_HTML</a>\r\n\r\n    ",
+    "Category": "HTML/XHTML",
+    "Disabled": false
+  },
+  {
+    "Question": "What are meta tags and why are they used?\r\n\r\n    ",
+    "Answer": "Meta tags are used to provide additional information about the web page itself. An example would be the relevant keywords that some search engines use (although fewer search engines are using these today, as people have tried to manipulate their way to the top of search engine results with false data).\r\n\r\nYou could also use a meta tag to do a page refresh after a certain period of time, or redirect to another page.\r\n\r\n<pre>\r\n&lt;meta http-equiv=\"refresh\" content=\"5\" /&gt;\r\n</pre>\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Meta_element\">http://en.wikipedia.org/wiki/Meta_element</a>\r\n\r\n    ",
+    "Category": "HTML/XHTML",
+    "Disabled": false
+  },
+  {
+    "Question": "Given the following code, we keep getting an error saying Alert is not defined. Why is that? What can we do to fix it?\r\n<pre>\r\n&lt;button onclick=\"Alert('Hello!')\"&gt;Say Hello&lt;/button&gt;\r\n</pre>\r\n\r\n    ",
+    "Answer": "JavaScript is case-sensitive. Alert should be all lowercase.\r\n\r\n    ",
+    "Category": "JavaScript",
+    "Disabled": false
+  },
+  {
+    "Question": "What does prototype mean in JavaScript?\r\n\r\n    ",
+    "Answer": "It could mean one of two things. You could be referring to the Prototype JavaScript framework, or you could be referring to the prototype object property.\r\n\r\nIf it's the latter, prototype allows you to add methods and properties to an object's type directly, and then those methods and properties will be available to all instantiations of that type.\r\n\r\n    ",
+    "Category": "JavaScript",
+    "Disabled": false
+  },
+  {
+    "Question": "In JavaScript, what if I have an object with a Name property, and then I add a Name property to the prototype? Which takes precedence?\r\n\r\n    ",
+    "Answer": "The JavaScript engine will look through all the object's properties for a Name property first. If it doesn't find one, then it will look at its prototype.\r\n\r\n    ",
+    "Category": "JavaScript",
+    "Disabled": false
+  },
+  {
+    "Question": "What would I use an XMLHttpRequest (XHR) for?\r\n\r\n    ",
+    "Answer": "It's typically used in JavaScript for making Ajax calls to the server. You would use it to send data to the server and get data back. The data might be returned in XML, plain text, or JSON.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/XMLHttpRequest\">http://en.wikipedia.org/wiki/XMLHttpRequest</a>\r\n\r\n    ",
+    "Category": "JavaScript",
+    "Disabled": false
+  },
+  {
+    "Question": "Why is Ajax a bad acronym these days?\r\n\r\n    ",
+    "Answer": "It stands for Asynchronous JavaScript and XML, but most people are sending and receiving JSON instead of XML these days because it's smaller and more efficient.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Ajax_(programming)\">http://en.wikipedia.org/wiki/Ajax_(programming)</a>\r\n\r\n    ",
+    "Category": "JavaScript",
+    "Disabled": false
+  },
+  {
+    "Question": "Ever heard of Script#?\r\n\r\n    ",
+    "Answer": "Yes. Script# is a C# compiler that compiles C# code into JavaScript. It's like the Google Web Toolkit, but for C# instead of Java.\r\n\r\n<a target=\"_blank\" href=\"#http://www.nikhilk.net/ScriptSharpIntro.aspx\">http://www.nikhilk.net/ScriptSharpIntro.aspx</a>\r\n\r\n    ",
+    "Category": "JavaScript",
+    "Disabled": false
+  },
+  {
+    "Question": "What is the Google Web Toolkit (GWT)?\r\n\r\n    ",
+    "Answer": "The Google Web Toolkit is a development toolkit for writing web applications. You can write your Ajax applications in Java and then compile the source into browser-compatible JavaScript. It's like Script#, but for Java instead of C#.\r\n\r\n<a target=\"_blank\" href=\"#http://code.google.com/webtoolkit/\">http://code.google.com/webtoolkit/</a>\r\n\r\n    ",
+    "Category": "JavaScript",
+    "Disabled": false
+  },
+  {
+    "Question": "Using jQuery, how would I select all the divs that have a class attribute of required and make the text inside them red?\r\n\r\n    ",
+    "Answer": "\r\n<pre>\r\n$(\"div.required\").css(\"color\", \"red\");\r\n</pre>\r\n\r\n    ",
+    "Category": "JavaScript",
+    "Disabled": false
+  },
+  {
+    "Question": "What is the difference between Dependency Injection and Inversion of Control?\r\n\r\n    ",
+    "Answer": "Dependency Injection is a specific way of accomplishing Inversion of Control. Martin Fowler coined the term ‘Dependency Injection' because he felt Inversion of Control was just too generic. IoC is all about setting up your application (in a general way) so that the components are loosely coupled.  DI is one way to accomplish that.\r\n\r\n    ",
+    "Category": "Dependency Injection",
+    "Disabled": false
+  },
+  {
+    "Question": "What is constructor injection?\r\n\r\n    ",
+    "Answer": "Constructor injection is the process of injecting your dependency into an object's constructor versus injecting your dependency into a property or method.\r\n\r\n    ",
+    "Category": "Dependency Injection",
+    "Disabled": false
+  },
+  {
+    "Question": "Can you give me an example of an IOC/DI framework?\r\n\r\n    ",
+    "Answer": "I can give you several examples: Unity, Ninject, StructureMap, and Castle Windsor.\r\n\r\n<a target=\"_blank\" href=\"#http://unity.codeplex.com/\">http://unity.codeplex.com/</a>\r\n\r\n<a target=\"_blank\" href=\"#http://www.ninject.org/\">http://www.ninject.org/</a>\r\n\r\n<a target=\"_blank\" href=\"#http://structuremap.github.com/structuremap/\">http://structuremap.github.com/structuremap/</a>\r\n\r\n<a target=\"_blank\" href=\"#http://www.castleproject.org/container/\">http://www.castleproject.org/container/</a>\r\n\r\n    ",
+    "Category": "Dependency Injection",
+    "Disabled": false
+  },
+  {
+    "Question": "What is Dependency Injection and what are its benefits?\r\n\r\n    ",
+    "Answer": "Dependency injection is a technique for supplying an external dependency (or reference) to a software component (such as a class or method). \r\n\r\nA benefit of DI is that it offers configuration flexibility because alternative implementations of a given service can be used. This is useful in unit testing because it is easy to inject a fake implementation of a service into the object being tested.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Dependency_injection\">http://en.wikipedia.org/wiki/Dependency_injection</a>\r\n\r\n    ",
+    "Category": "Dependency Injection",
+    "Disabled": false
+  },
+  {
+    "Question": "What is Inversion of Control?\r\n\r\n    ",
+    "Answer": "Inversion of Control is a great way to break dependencies between classes and promote loose coupling.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Inversion_of_control\">http://en.wikipedia.org/wiki/Inversion_of_control</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/pre-ioc-concepts\">http://bit.ly/pre-ioc-concepts</a>\r\n\r\n    ",
+    "Category": "Dependency Injection",
+    "Disabled": false
+  },
+  {
+    "Question": "What is modular programming?\r\n\r\n    ",
+    "Answer": "Modular programming is a technique that increases the extent to which software is composed of separate parts, called modules. Each module represents a separation of concerns.\r\n\r\nPrism and MEF are two frameworks that can help you build more modular, extensible software in .NET.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Object-oriented_programming\">http://en.wikipedia.org/wiki/Object-oriented_programming</a>\r\n\r\n    ",
+    "Category": "Modular Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "What is a composite application?\r\n\r\n    ",
+    "Answer": "In a composite application, each of its features could be a separate module. This separation improves maintainability by enforcing boundaries between components. This also allows modules to be individually developed, tested, and deployed by different developers or teams.\r\n\r\n    ",
+    "Category": "Modular Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "What is Prism?\r\n\r\n    ",
+    "Answer": "Prism (formerly known as Composite Application Guidance for WPF and Silverlight) is a collection of libraries for implementing best practices in WPF and Silverlight.\r\n\r\n<a target=\"_blank\" href=\"#http://compositewpf.codeplex.com/\">http://compositewpf.codeplex.com/</a>\r\n\r\n<a target=\"_blank\" href=\"#http://www.sparklingclient.com/prism-silverlight/\">http://www.sparklingclient.com/prism-silverlight/</a>\r\n\r\n    ",
+    "Category": "Modular Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "What is MEF?\r\n\r\n    ",
+    "Answer": "The Managed Extensibility Framework simplifies the creation of extensible applications. MEF offers discovery and composition capabilities that you can leverage to load application extensions. (Think plugins.)\r\n\r\n<a target=\"_blank\" href=\"#http://mef.codeplex.com/\">http://mef.codeplex.com/</a>\r\n\r\n    ",
+    "Category": "Modular Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "In MEF, what is the purpose of a catalog? Can you give me any examples of catalogs?\r\n\r\n    ",
+    "Answer": "A catalog is responsible for discovering extensions. There are many kinds of catalogs: there is an AssemblyCatalog, a DirectoryCatalog, an AggregateCatalog, a TypeCatalog, and a DeploymentCatalog.\r\n\r\n<a target=\"_blank\" href=\"#http://mef.codeplex.com/\">http://mef.codeplex.com/</a>\r\n\r\n    ",
+    "Category": "Modular Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "Show me some (very minimal) code to setup a plugin and have MEF import it.\r\n\r\n    ",
+    "Answer": "\r\n\r\nAdd an Export attribute on your plugin class:\r\n<pre>\r\n[Export(typeof(IPlugin))]\r\npublic class Foo : IPlugin { ... }\r\n</pre>\r\nIn the consumer of your plugin, create a property to hold your plugins, and add the Import attribute to it:\r\n<pre>\r\n[Import(typeof(IPlugin))]\r\ninternal IList&lt;IPlugin&gt; _myPlugins { get; set; }\r\n</pre>\r\nThen, you just have to tell MEF where to get the plugins – we'll use an AssemblyCatalog – and where to fulfill the plugins:\r\n<pre>\r\nprivate void LoadPlugins() {\r\n    var catalog = new AssemblyCatalog(    \r\n                          Assembly.GetExecutingAssembly());\r\n    var container = new CompositionContainer(catalog);\r\n    var batch = new CompositionBatch();\r\n    batch.AddPart(this);\r\n    container.Compose(batch);\r\n}\r\n</pre>\r\nI would put my call to the LoadPlugins method in the constructor, and finally, I could have some code like the following to spin through all my plugins:\r\n<pre>\r\nConsole.WriteLine(\"Found {0} plugins\", _myPlugins.Count);\r\n\r\nforeach (var plugin in _myPlugins)\r\n    Console.WriteLine(plugin.Name);\r\n</pre>\r\n\r\n    ",
+    "Category": "Modular Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "If we follow the Prism guidelines, what framework will we be using for Inversion of Control?\r\n\r\n    ",
+    "Answer": "You can either use Unity as your IoC container or MEF. Prism supports both.\r\n\r\n    ",
+    "Category": "Modular Programming",
+    "Disabled": false
+  },
+  {
+    "Question": "Can you explain the typical TDD software development cycle?\r\n\r\n    ",
+    "Answer": "1.\tDeveloper writes a failing test that defines an improvement or new functionality\r\n2.\tDeveloper writes code that makes the test pass\r\n3.\tDeveloper refactors code to acceptable standards\r\n\r\n    ",
+    "Category": "Unit Testing/TDD",
+    "Disabled": false
+  },
+  {
+    "Question": "What's the difference between a unit test and an integration test?\r\n\r\n    ",
+    "Answer": "A unit test only verifies that a very small piece of the code – like a single method – works properly. An integration test verifies that the pieces can work together. \r\n\r\nIt's like if you were building a car, and you tested the wheels, the tires, the steering, the gas pedal, and the brakes all separately. Those would be unit tests. Then when you take the car for a test drive to make sure all those parts work together properly, that's an integration test.\r\n\r\n    ",
+    "Category": "Unit Testing/TDD",
+    "Disabled": false
+  },
+  {
+    "Question": "Have you ever done Test Driven Development before?\r\n\r\n    ",
+    "Answer": "<i>If you have, tell them so and include some specific examples:</i>\r\n\r\n\"Yes, at my last job we did TDD, so I'm very much used to that way of thinking. We had several people working on the same underlying engine, so it was very important for us to make sure we weren't breaking another developer's code. Our unit tests played a very important role in that.\r\n\r\n\"We started out with only a few unit tests, doing them after the fact, but we switched to full-on TDD to force ourselves to decouple our objects better.\"\r\n\r\n<i>If you haven't done test driven development before:</i>\r\n\r\n\"I really haven't done any test driven development before. It seems like it would be a good thing to do, though. There have been many times when I've been faced with making changes to legacy code, and I'm always afraid my change may have unforeseen consequences. I've wished there were some tests I could have run to check for those issues.\r\n\r\n\"I've never taken it upon myself to write unit tests because none of my co-workers have ever wanted to do it. They would never have run the tests, and I was worried that, over time, my tests would become outdated and invalid because everyone else would have circumvented them.\"\r\n\r\n    ",
+    "Category": "Unit Testing/TDD",
+    "Disabled": false
+  },
+  {
+    "Question": "Are you familiar with Continuous Integration?\r\n\r\n    ",
+    "Answer": "Yes, we did that at one of my previous jobs, and I thought it worked really well. The way we did it was like this – TFS would run an automated build after every checkin, run all the tests in the solution, and email the team members if there were any errors.\r\n\r\n    ",
+    "Category": "Unit Testing/TDD",
+    "Disabled": false
+  },
+  {
+    "Question": "We use TDD here. If given a bug to fix, what would be the first thing you'd do?\r\n\r\n    ",
+    "Answer": "The first thing I'd do is create a unit test to prove there is a bug. Then I would fix the bug and see if my test passes. If so, we've got a bug fix and a test to check for it in the future.\r\n\r\n    ",
+    "Category": "Unit Testing/TDD",
+    "Disabled": false
+  },
+  {
+    "Question": "In the world of unit tests, what is AAA syntax? What about RR syntax?\r\n\r\n    ",
+    "Answer": "AAA stands for Arrange, Act, Assert. When you Arrange, you are setting up your mocks and stubs, then you Act on those objects by doing whatever it is you're testing. Then you Assert that everything worked as expected.\r\n\r\nRR stands for Record, Replay or Record, Replay, Verify. It feels unnatural to me, but it's the way a lot of testing frameworks worked before Moq blew everything to pieces with AAA. Now most of the others have followed suit and offer AAA as well. With RR, you setup your objects, then you record your expectations. In the playback phase, you run the code under test and verify the results. \r\n\r\n    ",
+    "Category": "Unit Testing/TDD",
+    "Disabled": false
+  },
+  {
+    "Question": "What is the purpose of Object Relational Mapping (OR/M or ORM)?\r\n\r\n    ",
+    "Answer": "The basic purpose of Object Relational Mapping is to allow an application written in an object-oriented language to deal with the information it manipulates in terms of objects, rather than in terms of database-specific concepts such as rows, columns, and tables.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Object-relational_mapping\">http://en.wikipedia.org/wiki/Object-relational_mapping</a>\r\n\r\n    ",
+    "Category": "Object Relational Mapping",
+    "Disabled": false
+  },
+  {
+    "Question": "We have a tiny application that needs to access a database. Should we use LINQ to SQL or Entity Framework?\r\n\r\n    ",
+    "Answer": "In the past, Entity Framework was difficult to setup and use. Some folks didn't like the overhead involved with it and preferred LINQ to SQL for its simplicity. Now, however, we have Code-First Entity Framework, which is very nice and easy to use. I would use it for any new projects, if given a choice.\r\n\r\n    ",
+    "Category": "Object Relational Mapping",
+    "Disabled": false
+  },
+  {
+    "Question": "Our tiny application is going to use a SQL Express database at first, but then we may use Sqlite or some other database. Should we use LINQ to SQL or Entity Framework?\r\n\r\n    ",
+    "Answer": "I think you should probably use Entity Framework. LINQ to SQL supports Microsoft SQL Server databases only. If you're going to switch to another database in the future, EF would be the way to go.\r\n\r\n    ",
+    "Category": "Object Relational Mapping",
+    "Disabled": false
+  },
+  {
+    "Question": "Is LINQ to SQL dead?\r\n\r\n    ",
+    "Answer": "No, it is not dead. I think Microsoft has stopped adding new features to it and are focusing more attention on Entity Framework, but it is still part of the .NET Framework and will be around for a long time.\r\n\r\n    ",
+    "Category": "Object Relational Mapping",
+    "Disabled": false
+  },
+  {
+    "Question": "Can you give me any examples of ORM frameworks?\r\n\r\n    ",
+    "Answer": "ADO.NET Entity Framework\r\n<a target=\"_blank\" href=\"#http://bit.ly/msdn-entityframework\">http://bit.ly/msdn-entityframework</a>\r\n\r\nLINQ to SQL\r\n<a target=\"_blank\" href=\"#http://bit.ly/msdn-linqtosql\">http://bit.ly/msdn-linqtosql</a>\r\n\r\nNHibernate\r\n<a target=\"_blank\" href=\"#http://www.nhibernate.com/\">http://www.nhibernate.com/</a>\r\n\r\nCastle ActiveRecord\r\n<a target=\"_blank\" href=\"#http://www.castleproject.org/activerecord/\">http://www.castleproject.org/activerecord/</a>\r\n\r\n    ",
+    "Category": "Object Relational Mapping",
+    "Disabled": false
+  },
+  {
+    "Question": "What is the difference between WSS and MOSS?\r\n\r\n    ",
+    "Answer": "WSS is the underlying API used by MOSS, but you could use WSS by itself if you wanted. MOSS builds upon the features provided by WSS, offering additional features for enterprise users.\r\n\r\n    ",
+    "Category": "SharePoint Development",
+    "Disabled": false
+  },
+  {
+    "Question": "What is the difference between System.Web.UI.WebControls.WebParts.WebPart and Microsoft.SharePoint.WebPartPages.WebPart?\r\n\r\n    ",
+    "Answer": "Microsoft.SharePoint.WebPartPages.WebPart is provided in MOSS 2007 to provide backwards compatability with MOSS 2003 Web Parts. In MOSS 2007 and higher, it's recommended to use System.Web.UI.WebControls. WebParts.WebPart instead.\r\n\r\n    ",
+    "Category": "SharePoint Development",
+    "Disabled": false
+  },
+  {
+    "Question": "Can you install Sharepoint 2010 on Windows 7?\r\n\r\n    ",
+    "Answer": "Yes. You can install Sharepoint 2010 on the 64 bit versions of Windows 7, Windows Vista, and Windows Server 2008. You can't install it on 32 bit versions, though. You can't install earlier versions of Sharepoint on Windows 7, though. You have to use server virtualization with those.\r\n\r\n    ",
+    "Category": "SharePoint Development",
+    "Disabled": false
+  },
+  {
+    "Question": "How does SharePoint store pages?\r\n\r\n    ",
+    "Answer": "SharePoint doesn't store pages directly in the file system. Instead, it stores the pages in the Database as BLOBS, and serves them up using the ASP.NET Virtual Path Provider.\r\n\r\n    ",
+    "Category": "SharePoint Development",
+    "Disabled": false
+  },
+  {
+    "Question": "When should you dispose SPWeb and SPSite objects? And even more important, when not?\r\n\r\n    ",
+    "Answer": "You should always dispose them if you created them yourself, but not otherwise. You should never dispose SPContext.Current.Web/Site and you should normally not dispose SPWeb if IsRootWeb is true. More tricky constructs are things along the line of SPList.ParentWeb.\r\n\r\n    ",
+    "Category": "SharePoint Development",
+    "Disabled": false
+  },
+  {
+    "Question": "What is CAML and how does it relate to SharePoint?\r\n\r\n    ",
+    "Answer": "CAML stands for Collaborative Application Markup Language and is an XML-based language that is used in Microsoft SharePoint Foundation to define the fields and views that are used in sites and lists.\r\n\r\n    ",
+    "Category": "SharePoint Development",
+    "Disabled": false
+  },
+  {
+    "Question": "What does a service contract look like in WCF?\r\n\r\n    ",
+    "Answer": "\r\n<pre>\r\n[ServiceContract]\r\npublic class AdderService\r\n{\t\r\n  [OperationContract]\r\n  public double Add(double n1, double n2)\r\n  {\r\n     return n1 + n2;\r\n  }\r\n}\r\n</pre>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/msdn-firststepswcf\">http://bit.ly/msdn-firststepswcf</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/wiki-wcf\">http://bit.ly/wiki-wcf</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/msdn-wcf\">http://bit.ly/msdn-wcf</a>\r\n\r\n    ",
+    "Category": "WCF",
+    "Disabled": false
+  },
+  {
+    "Question": "What does a data contract look like in WCF?\r\n\r\n    ",
+    "Answer": "\r\n<pre>\r\n[DataContract]\r\npublic class Test\r\n{\r\n    [DataMember]\r\n    public string Id;\r\n}\r\n</pre>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/msdn-firststepswcf\">http://bit.ly/msdn-firststepswcf</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/wiki-wcf\">http://bit.ly/wiki-wcf</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/msdn-wcf\">http://bit.ly/msdn-wcf</a>\r\n\r\n    ",
+    "Category": "WCF",
+    "Disabled": false
+  },
+  {
+    "Question": "A WCF service is composed of what three parts?\r\n\r\n    ",
+    "Answer": "A <i>Service</i> class that implements the service to be provided, a <i>host environment</i> to host the service, and one or more <i>endpoints</i> to which clients will connect.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/msdn-firststepswcf\">http://bit.ly/msdn-firststepswcf</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/wiki-wcf\">http://bit.ly/wiki-wcf</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/msdn-wcf\">http://bit.ly/msdn-wcf</a>\r\n\r\n    ",
+    "Category": "WCF",
+    "Disabled": false
+  },
+  {
+    "Question": "All communication with the WCF service happens via what?\r\n\r\n    ",
+    "Answer": "The endpoints.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/msdn-firststepswcf\">http://bit.ly/msdn-firststepswcf</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/wiki-wcf\">http://bit.ly/wiki-wcf</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/msdn-wcf\">http://bit.ly/msdn-wcf</a>\r\n\r\n    ",
+    "Category": "WCF",
+    "Disabled": false
+  },
+  {
+    "Question": "What is Windows Communication Foundation?\r\n\r\n    ",
+    "Answer": "Windows Communication Foundation (or WCF) is an application programming interface in the .NET Framework for building connected, service-oriented applications.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/msdn-firststepswcf\">http://bit.ly/msdn-firststepswcf</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/wiki-wcf\">http://bit.ly/wiki-wcf</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/msdn-wcf\">http://bit.ly/msdn-wcf</a>\r\n\r\n    ",
+    "Category": "WCF",
+    "Disabled": false
+  },
+  {
+    "Question": "What is soapUI?",
+    "Answer": "soapUI is a free, open source, cross-platform utility for doing all sorts of testing. You can use it to test web services and WCF services easily.\r\n\r\n<a target=\"_blank\" href=\"#http://soapui.org/\">http://soapui.org/</a>\r\n\r\n    ",
+    "Category": "WCF",
+    "Disabled": false
+  },
+  {
+    "Question": "What is Windows Workflow Foundation?\r\n\r\n    ",
+    "Answer": "Windows Workflow Foundation (or WF) is a technology for defining, executing, and managing processes or workflows.\r\n\r\nWF provides .NET developers with the ability to separate the business logic of their application from the underlying execution components.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/msdn-firststepswf\">http://bit.ly/msdn-firststepswf</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/wiki-wf\">http://bit.ly/wiki-wf</a>\r\n\r\n    ",
+    "Category": "Workflow Foundation",
+    "Disabled": false
+  },
+  {
+    "Question": "Explain the different types of workflows you can create with WF.\r\n\r\n    ",
+    "Answer": "You can create Sequential workflows or Flowchart workflows. Sequential workflows execute activities in sequence, one after the other.  Flowchart workflows execute activities in order too, but also allow branching and looping based on external events.\r\n\r\n    ",
+    "Category": "Workflow Foundation",
+    "Disabled": false
+  },
+  {
+    "Question": "How do you create workflows in WF?\r\n\r\n    ",
+    "Answer": "Workflows are defined in XAML, but are usually edited graphically in Visual Studio. You can also create them programmatically.\r\n\r\n    ",
+    "Category": "Workflow Foundation",
+    "Disabled": false
+  },
+  {
+    "Question": "What is the BAL in WF?\r\n\r\n    ",
+    "Answer": "BAL stands for Base Activity Library. You can create custom activities if you like, but most of the time, a workflow will contain activities from the BAL.\r\n\r\n    ",
+    "Category": "Workflow Foundation",
+    "Disabled": false
+  },
+  {
+    "Question": "What changes have been made to WF in .NET 4.0?\r\n\r\n    ",
+    "Answer": "There have been substantial changes. A lot of the activities in the BAL have been rewritten to improve performance, and new activities have been added. Also, creating custom activities is much easier now thanks to the ability to simply add a Custom activity; using the catch-all Code activity in previous versions of WF was not a very elegant solution.\r\n\r\n    ",
+    "Category": "Workflow Foundation",
+    "Disabled": false
+  },
+  {
+    "Question": "What are .xoml files?\r\n\r\n    ",
+    "Answer": "The serialization format for workflows was previously called XOML, to differentiate it from UI markup use of XAML. The .xoml extension has been replaced in WF 4.0 by the new .xamlx extension.\r\n\r\n    ",
+    "Category": "Workflow Foundation",
+    "Disabled": false
+  },
+  {
+    "Question": "What is WPF?\r\n\r\n    ",
+    "Answer": "Windows Presentation Foundation (WPF) is a graphical subsystem for rendering user interfaces in Windows-based applications. WPF supports UI, media, documents, hardware acceleration, vector graphics, scalability to different form factors, integration with Windows, interactive data visualization, and superior content readability.\r\n\r\n<a target=\"_blank\" href=\"#http://windowsclient.net/getstarted/\">http://windowsclient.net/getstarted/</a>\r\n\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "What is Silverlight?\r\n\r\n    ",
+    "Answer": "Microsoft Silverlight is a web-based subset of WPF that enables developers to create Flash-like web and mobile applications with the same programming model as .NET applications.\r\n\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "What is XAML (pronounced zahm-uhl)?\r\n\r\n    ",
+    "Answer": "XAML (or Extensible Application Markup Language) is WPF's new XML-based markup language for defining UI elements, data binding, eventing, and other features.\r\n\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "What is the difference between WPF and Silverlight?\r\n\r\n    ",
+    "Answer": "WPF applications are typically windows applications. Silverlight is a subset of WPF and runs inside a web browser.\r\n\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "Suppose we want to create a new web application. Should we use WPF or Silverlight?\r\n\r\n    ",
+    "Answer": "I think it greatly depends on what you intend to do the web application. If you want it to run on a greater number of web browsers and operating systems, then I would choose Silverlight. If you need additional functionality that Silverlight doesn't provide, and you're building an internal application and can force everyone to use Internet Explorer or Firefox, then I guess you could create an XBAP.\r\n\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "What is WPF/E? What is Avalon?\r\n\r\n    ",
+    "Answer": "WPF/E is the former name of Silverlight, and ‘Avalon' is the former name of WPF.\r\n\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "What is Microsoft Expression Blend?\r\n\r\n    ",
+    "Answer": "Microsoft Expression Blend is a UI design tool. It's a WYSIWYG front-end for creating WPF and Silverlight apps. It's aimed more at designers instead of developers. The idea is that you could have your developers write the code in Visual Studio, and the designers are creating the user interface in Expression Blend.\r\n\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "What is SketchFlow?\r\n\r\n    ",
+    "Answer": "SketchFlow is a prototyping tool included with Expression Blend. It enables you to rapidly present ideas, user interface flows, screen layouts and application functionality. It's similar to Balsamiq in that the controls look hand-drawn. This is to get people thinking about the functionality of an application rather than the insignificant details.\r\n\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "Which container property associates an object for data binding?\r\n\r\n    ",
+    "Answer": "The DataContext property.\r\n\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "Which property indicates the space in pixels around an element?\r\n\r\n    ",
+    "Answer": "The Margin property.\r\n\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "What happens when you tie up the UI thread in a WPF application?\r\n\r\n    ",
+    "Answer": "Your application will become unresponsive.\r\n\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "Which XML-based markup language is used to define the design and behavior of objects in WPF?\r\n\r\n    ",
+    "Answer": "That would be XAML.\r\n\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "What is an XBAP?\r\n\r\n    ",
+    "Answer": "<i>Note: XBAP is pronounced ex-bahp.</i>\r\n\r\nXBAP stands for XAML Browser Applications, and they are WPF applications that are hosted and run inside a web browser. Right now only Firefox and Internet Explorer support XBAPs.\r\n\r\nEach XBAP is hosted in a partial trust sandbox environment and is not given full access to the computer's resources. About 99% of standard WPF functionality is available to an XBAP, though.\r\n\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "How could I programmatically (not using XAML) dock a textblock to the top of a window?\r\n\r\n    ",
+    "Answer": "You would use the SetDock() method.\r\n\r\n<pre>\r\nDockPanel.SetDock(myTextBlock, Dock.Top)\r\n</pre>\r\n\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "I have a collection in my ViewModel called Employees. I want to show the employee data in a ListBox control. In XAML, what would the binding look like?\r\n\r\n    ",
+    "Answer": "\r\n<pre>\r\n&lt;ListBox ItemsSource=\"{Binding Employees}\"&gt;\r\n</pre>\r\n\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "In WPF, what is a Canvas used for?\r\n    ",
+    "Answer": "It defines an area within which you can explicitly position child elements by coordinates relative to the Canvas area.\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "In WPF, what is a DockPanel used for?\r\n    ",
+    "Answer": "It defines an area within which you can arrange child elements either horizontally or vertically, relative to each other.\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "In WPF, what is a Grid used for?\r\n    ",
+    "Answer": "It defines a flexible grid area consisting of columns and rows.\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "In WPF, what is a StackPanel used for?\r\n    ",
+    "Answer": "A StackPanel arranges child elements into a single line that can be oriented horizontally or vertically.\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "In WPF, what is a TabPanel used for?\r\n    ",
+    "Answer": "It handles the layout of tab buttons in a TabControl.\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "In WPF, what is a UniformGrid used for?\r\n    ",
+    "Answer": "It arranges children in a grid with all equal size cells.\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "In WPF, what is a VirtualizingPanel used for?\r\n    ",
+    "Answer": "It provides a base class for panels that can virtualize their children collection. \"Virtualize\" in this case means that given a large number of data items, a smaller subset of items is generated that the user actually sees on the screen.\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "In WPF, what is a VirtualizingStackPanel used for?\r\n    ",
+    "Answer": "It arranges and virtualizes content on a single line oriented horizontally or vertically.\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "In WPF, what is a WrapPanel used for?\r\n    ",
+    "Answer": "It positions child elements in sequential position from left to right, breaking content to the next line at the edge of the containing box. Subsequent ordering depends on the value of the Orientation property, but will be either right to left or top to bottom.\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "In WPF, what is the difference between Static and Dynamic Resources?\r\n    ",
+    "Answer": "Resources allow you to reuse commonly defined objects and values. <b>Static resources</b> are evaluated during loading and <b>dynamic resources</b> are evaluated at runtime.\r\n\r\nIn XAML, a static resource is defined with the StaticResource markup extension, and a dynamic resource is defined with the DynamicResource markup extension.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/wpf-resourcesoverview\">http://bit.ly/wpf-resourcesoverview</a>\r\n    ",
+    "Category": "WPF/Silverlight",
+    "Disabled": false
+  },
+  {
+    "Question": "Who is the Gang of Four (GoF)?",
+    "Answer": "<i>Design Patterns: Elements of Reusable Object-Oriented Software</i> is a classic software engineering book describing the recurring solutions to common problems in software design. The book's authors are Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides. They are often referred to as the Gang of Four, or GoF.\r\n\r\nI was part of an interview where a lead developer asked the interviewee, \"Ever heard of the Gang of Four?\"\r\n\r\nHe replied, \"I have their book on my shelf, along with a couple of other design pattern books.\" We hired him.\r\n\r\n    ",
+    "Category": "Design Patterns",
+    "Disabled": false
+  },
+  {
+    "Question": "Describe the Adapter pattern.\r\n\r\n    ",
+    "Answer": "The Adapter pattern  (often referred to as the Wrapper pattern or simply a wrapper) translates one interface for a class into a compatible interface.\r\n\r\nAn example of the Adapter pattern in the .NET Framework is the Runtime Callable Wrapper (RCW). RCWs allow managed classes and COM components to interact despite their differences.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Adapter_pattern\">http://en.wikipedia.org/wiki/Adapter_pattern</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/adapterpattern\">http://bit.ly/adapterpattern</a>\r\n\r\n    ",
+    "Category": "Design Patterns",
+    "Disabled": false
+  },
+  {
+    "Question": "Describe the Command pattern.\r\n\r\n    ",
+    "Answer": "The Command pattern is a design pattern in which objects are used to represent actions. A command object encapsulates an action and its parameters. This allows a decoupling of the invoker of the command and the handlers of the command.\r\n\r\nOne use for the Command pattern is multi-level undo. A program could keep a stack of the most recently used commands. When the user wants to undo a command, the program simply pops the most recent command object and executes its undo method.\r\n\r\nWPF uses the Command pattern; commands are created by implementing the ICommand interface.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Command_pattern\">http://en.wikipedia.org/wiki/Command_pattern</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/wpfcommanding\">http://bit.ly/wpfcommanding</a>\r\n\r\n    ",
+    "Category": "Design Patterns",
+    "Disabled": false
+  },
+  {
+    "Question": "Describe the Composite pattern.\r\n\r\n    ",
+    "Answer": "The Composite pattern is a partitioning design pattern that allows a group of objects to be treated in the same way as a single instance of an object. The intent is to \"compose\" objects into tree structures to represent part-whole hierarchies.\r\n\r\nAn ASP.NET GridView control is actually a complex collection of child controls. Being able to call the Render method on a GridView and have all the child controls also render appropriately is an example of using the Composite pattern.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Composite_pattern\">http://en.wikipedia.org/wiki/Composite_pattern</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/compositepattern\">http://bit.ly/compositepattern</a>\r\n\r\n    ",
+    "Category": "Design Patterns",
+    "Disabled": false
+  },
+  {
+    "Question": "Describe the Decorator pattern.\r\n\r\n    ",
+    "Answer": "The Decorator pattern allows new or additional behaviour to be added to an existing object dynamically. Decorators implement (or override) the methods in the interface (or base class) to provide extra functionality.\r\n\r\nAn example of the Decorator pattern in the .NET Framework is the Stream class. Wrap a Stream object with a BufferedStream to add the capability for buffered access.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Decorator_pattern\">http://en.wikipedia.org/wiki/Decorator_pattern</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/decoratorpattern\">http://bit.ly/decoratorpattern</a>\r\n\r\n    ",
+    "Category": "Design Patterns",
+    "Disabled": false
+  },
+  {
+    "Question": "Describe the Factory pattern.\r\n\r\n    ",
+    "Answer": "The Factory pattern is used to encapsulate the processes involved in the creation of objects. Rather than invoking an object's constructor, the factory can create the object for you.\r\n\r\nAn example of the Factory pattern in .NET is the WebRequest class. It has a static method called Create that takes either a string or a URI as a parameter. The Create method determines which type of WebRequest object to return based on whether the URI starts with 'http://', 'https://', 'ftp://', or 'file://'.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Factory_pattern\">http://en.wikipedia.org/wiki/Factory_pattern</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/factorypattern\">http://bit.ly/factorypattern</a>\r\n\r\n    ",
+    "Category": "Design Patterns",
+    "Disabled": false
+  },
+  {
+    "Question": "Describe the Iterator pattern.\r\n\r\n    ",
+    "Answer": "The Iterator pattern is a design pattern in which iterators are used to access the elements of an aggregate object sequentially without exposing its underlying representation.\r\n\r\nThe .NET Framework uses the IEnumerable and IEnumerator interfaces to implement the Iterator pattern. Any object that implements IEnumerable can be traversed using foreach.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Iterator_pattern\">http://en.wikipedia.org/wiki/Iterator_pattern</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/iteratorpattern\">http://bit.ly/iteratorpattern</a>\r\n\r\n    ",
+    "Category": "Design Patterns",
+    "Disabled": false
+  },
+  {
+    "Question": "Describe the Mediator pattern.\r\n\r\n    ",
+    "Answer": "With the Mediator pattern communication between objects is encapsulated with a mediator object. Objects no longer communicate directly with each other, but instead communicate through the mediator. This reduces the dependencies between communicating objects, thereby lowering the coupling.\r\n\r\nThe Mediator pattern is used in conjunction with MVVM and WPF for showing dialogs. When using the MVVM pattern, you have no way of doing anything with the UI from the ViewModel. The best you can do is send a message from the ViewModel and have your View show a dialog when it receives that message.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Mediator_pattern\">http://en.wikipedia.org/wiki/Mediator_pattern</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/wpf-mvvm-dialog\">http://bit.ly/wpf-mvvm-dialog</a>\r\n\r\n    ",
+    "Category": "Design Patterns",
+    "Disabled": false
+  },
+  {
+    "Question": "Describe the MVC (Model-View-Controller) pattern.\r\n\r\n    ",
+    "Answer": "MVC is an architectural pattern that isolates the application logic from the user interface (input and presentation), permitting independent development, testing, and maintenance of each.\r\n\r\nThe best, most in-your-face example of this is ASP.NET MVC.\r\n\r\nThe <i>Model</i> contains the core information for an application. This includes the data and validation rules as well as data access and aggregation logic.\r\n\r\nThe <i>View</i> encapsulates the presentation of the application, and in ASP.NET this is typically the HTML markup.\r\n\r\nThe <i>Controller</i> contains the control-flow logic. It interacts with the Model(s) and View(s) to control the flow of information and execution of the application.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/wiki-mvc\">http://bit.ly/wiki-mvc</a>\r\n\r\n<a target=\"_blank\" href=\"#http://www.asp.net/mvc/whatisaspmvc\">http://www.asp.net/mvc/whatisaspmvc</a>\r\n\r\n    ",
+    "Category": "Design Patterns",
+    "Disabled": false
+  },
+  {
+    "Question": "Describe the MVVM (Model-View-ViewModel) pattern.\r\n\r\n    ",
+    "Answer": "MVVM is an architectural pattern that originated from Microsoft as a specialization of the Presentation Model design pattern introduced by Martin Fowler. It also has roots in the MVC pattern.\r\n\r\nMVVM was created to leverage features of WPF and Silverlight.\r\n\r\nThe <i>Model</i> contains the core information for an application. This includes the data and validation rules as well as data access and aggregation logic.\r\n\r\nThe <i>View</i> does a little bit more in MVVM than it does in MVC. It encapsulates the presentation of the application, but in WPF, that means it handles displaying all the visual elements (windows, buttons, images, etc.) as well as handling the keyboard shortcuts and other interaction controls that would typically be handled by a Controller in the MVC pattern.\r\n\r\nThe <i>ViewModel</i> is a 'Model of the View' meaning it is an abstraction of the View that also serves in data binding between the View and the Model. It typically contains properties used by the View for databinding.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/wiki-mvvm\">http://bit.ly/wiki-mvvm</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/wpf-mvvm\">http://bit.ly/wpf-mvvm</a>\r\n\r\n    ",
+    "Category": "Design Patterns",
+    "Disabled": false
+  },
+  {
+    "Question": "Describe the Observer pattern.\r\n\r\n    ",
+    "Answer": "The Observer pattern is a design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.\r\n\r\nWhen using events and event handlers in .NET, you are using the Observer pattern. Events are the subjects; delegates are the observers.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Observer_pattern\">http://en.wikipedia.org/wiki/Observer_pattern</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/observerpattern\">http://bit.ly/observerpattern</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/exploring-observer\">http://bit.ly/exploring-observer</a>\r\n\r\n    ",
+    "Category": "Design Patterns",
+    "Disabled": false
+  },
+  {
+    "Question": "Describe the Singleton pattern.\r\n\r\n    ",
+    "Answer": "The Singleton pattern restricts the instantiation of a class to one object. It is one of the most well known patterns in software engineering.\r\n\r\n<b>Jon Skeet's Thread-Safe, Lazy Singleton:</b>\r\n<pre>\r\npublic sealed class Singleton\r\n{\r\n  Singleton()\r\n  {\r\n  }\r\n\r\n  public static Singleton Instance\r\n  {\r\n    get\r\n    {\r\n      return Nested.instance;\r\n    }\r\n  }\r\n    \r\n  class Nested\r\n  {\r\n    // Explicit static constructor to tell C# compiler\r\n    // not to mark type as beforefieldinit\r\n    static Nested()\r\n    {\r\n    }\r\n\r\n    internal static readonly Singleton instance = \r\n      new Singleton();\r\n  }\r\n}\r\n</pre>\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Singleton_pattern\">http://en.wikipedia.org/wiki/Singleton_pattern</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/skeet-singleton\">http://bit.ly/skeet-singleton</a>\r\n\r\n    ",
+    "Category": "Design Patterns",
+    "Disabled": false
+  },
+  {
+    "Question": "Describe the Strategy pattern.\r\n\r\n    ",
+    "Answer": "The Strategy pattern (also known as the Policy pattern) is a design pattern in which algorithms can be selected at runtime.\r\n\r\nDelegates in C# follow the strategy pattern, where the delegate definition defines the strategy interface and the delegate instance represents the concrete strategy. .NET 3.5 defines the Func&lt;,&gt; delegate which can be used to quickly implement the strategy pattern.\r\n\r\n<a target=\"_blank\" href=\"#http://en.wikipedia.org/wiki/Strategy_pattern\">http://en.wikipedia.org/wiki/Strategy_pattern</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/strategypattern\">http://bit.ly/strategypattern</a>\r\n\r\n    ",
+    "Category": "Design Patterns",
+    "Disabled": false
+  },
+  {
+    "Question": "Describe the Template Method pattern.\r\n\r\n    ",
+    "Answer": "The Template Method pattern defines the program skeleton of an algorithm. The algorithm steps are able to be overridden by subclasses to provide their own concrete implementations. This allows differing behaviors while ensuring that the overarching algorithm is still followed.\r\n\r\nWhen you create a custom control in ASP.NET, you don't have to write any code to handle the functionality common to all controls, like loading and saving ViewState, allowing PostBack events to be handled, and raising the control lifecycle events in the correct order. All those steps are handled for you by an algorithm in the base control class.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/wiki-templatemethodpattern\">http://bit.ly/wiki-templatemethodpattern</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/templatemethodpattern\">http://bit.ly/templatemethodpattern</a>\r\n\r\n    ",
+    "Category": "Design Patterns",
+    "Disabled": false
+  },
+  {
+    "Question": "What is your favorite design pattern?\r\n\r\n    ",
+    "Answer": "<i>The interviewer is just trying to see how much you know about design patterns. I'd probably say, \"I don't have a favorite, but I do have patterns I use frequently, such as [name some patterns here].\"</i>\r\n\r\n    ",
+    "Category": "Design Patterns",
+    "Disabled": false
+  },
+  {
+    "Question": "What is an anti-pattern?\r\n\r\n    ",
+    "Answer": "An anti-pattern is a repeated pattern that ultimately causes more harm than good, and typically there is a refactored solution that could be used instead.\r\n    \t\r\nAn example anti-pattern is one called \"Interface Bloat\" where a developer has made an interface so powerful that it is extremely difficult to implement.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/Id8zJ\">http://bit.ly/Id8zJ</a>\r\n    ",
+    "Category": "Design Patterns",
+    "Disabled": false
+  },
+  {
+    "Question": "What are the differences between Agile methods and the traditional Software Development Life Cycle (SDLC)?\r\n\r\n    ",
+    "Answer": "In the traditional SDLC, you'd have lengthy requirements documents. In Agile, you have simple user stories. In traditional SDLC, you freeze the requirements, complete a full design, then start coding. In Agile, the developer does the design for one specific task just before he starts on it. In traditional SDLC, once the requirements and design have been signed off on, product owners are told, Okay, now nothing can change, but then things do change, and all the time you spent developing the full design up front is useless. In Agile, changes are accepted as a part of life and happen frequently.\r\n\r\n    ",
+    "Category": "Agile/Scrum Methodologies",
+    "Disabled": false
+  },
+  {
+    "Question": "How long should an Agile iteration be?\r\n\r\n    ",
+    "Answer": "Between 2 and 4 weeks. Anything longer is probably not very Agile.\r\n\r\n    ",
+    "Category": "Agile/Scrum Methodologies",
+    "Disabled": false
+  },
+  {
+    "Question": "How often should an Agile team meet?\r\n\r\n    ",
+    "Answer": "They should have a very short meeting every day to discuss progress and any problems they're having.\r\n\r\n    ",
+    "Category": "Agile/Scrum Methodologies",
+    "Disabled": false
+  },
+  {
+    "Question": "What are user stories?\r\n\r\n    ",
+    "Answer": "User stories are the meat of Agile development. The Product Owner creates user stories and that's what the team works off. A typical user story would be like:\r\n\r\n<pre>\r\nAs a [user] I want [function] so that [value].\r\n</pre>\r\n\r\n    ",
+    "Category": "Agile/Scrum Methodologies",
+    "Disabled": false
+  },
+  {
+    "Question": "What is the INVEST model?\r\n\r\n    ",
+    "Answer": "The INVEST model is used when creating user stories. It represents six characteristics of great user stories: Independent, Negotiable, Valuable, Estimable, Small, and Testable.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/agile-invest\">http://bit.ly/agile-invest</a>\r\n\r\n    ",
+    "Category": "Agile/Scrum Methodologies",
+    "Disabled": false
+  },
+  {
+    "Question": "What is Lean software development?\r\n\r\n    ",
+    "Answer": "Lean software development was adapted from the Toyota Production System and is an emerging Agile methodology with the slogan: \"Think big, act small, fail fast; learn rapidly.\"\r\n\r\n<b>Lean Principles:</b>\r\n\r\n- Eliminate waste\r\n- Amplify learning\r\n- Decide as late as possible\r\n- Deliver as fast as possible\r\n- Empower the team\r\n- Build integrity in\r\n- See the whole\r\n\r\nMore details are available on each of these in <i>How to Find and Land a Microsoft .NET Development Job</i>:\r\n<a target=\"_blank\" href=\"#http://developerjobresource.com\">http://developerjobresource.com</a>\r\n    ",
+    "Category": "Agile/Scrum Methodologies",
+    "Disabled": false
+  },
+  {
+    "Question": "What is version control?\r\n\r\n    ",
+    "Answer": "Version Control, also known as Source Control, Revision Control, or Software Configuration Management (SCM), is the management of changes to documents, programs, and other information.\r\n\r\nWith source control properly in place, multiple people can make changes to source code (or other files) without worrying about overwriting each other's changes. You also have the capability to roll back to a previous version of a file if necessary.\r\n\r\n    ",
+    "Category": "Version Control Systems",
+    "Disabled": false
+  },
+  {
+    "Question": "What are some popular version control systems?\r\n\r\n    ",
+    "Answer": "The most popular are probably Microsoft Team Foundation Server (TFS), Subversion, and Git.\r\n\r\n    ",
+    "Category": "Version Control Systems",
+    "Disabled": false
+  },
+  {
+    "Question": "What is Git?\r\n\r\n    ",
+    "Answer": "Git is a free, open source, distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Branching and merging, which are normally a pain, are supposed to be easy to do with Git.\r\n\r\n<a target=\"_blank\" href=\"#http://git-scm.com\">http://git-scm.com</a>\r\n    ",
+    "Category": "Version Control Systems",
+    "Disabled": false
+  },
+  {
+    "Question": "What is Subversion?\r\n\r\n    ",
+    "Answer": "Subversion (SVN) is an open source version control system that has seen incredible success over the past decade. \r\n    \t\r\nYou can access your subversion repositories directly within Visual Studio by using add-ins such as AnkhSVN (free) or VisualSVN (not free).\r\n\r\n<a target=\"_blank\" href=\"#http://subversion.apache.org\">http://subversion.apache.org</a>\r\n\r\n<a target=\"_blank\" href=\"#http://ankhsvn.open.collab.net\">http://ankhsvn.open.collab.net</a>\r\n\r\n<a target=\"_blank\" href=\"#http://www.visualsvn.com\">http://www.visualsvn.com</a>\r\n    ",
+    "Category": "Version Control Systems",
+    "Disabled": false
+  },
+  {
+    "Question": "What is Team Foundation Server?\r\n\r\n    ",
+    "Answer": "Team Foundation Server (TFS) is a Microsoft product offering source control, data collection, reporting, and project tracking, and is intended for collaborative software development projects. It's probably the most popular version control system in the .NET world.\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/wiki-tfs\">http://bit.ly/wiki-tfs</a>\r\n\r\n<a target=\"_blank\" href=\"#http://bit.ly/microsoft-tfs\">http://bit.ly/microsoft-tfs</a>\r\n\r\n    ",
+    "Category": "Version Control Systems",
+    "Disabled": false
+  },
+  {
+    "Question": "Why do you want to leave your current position?\r\n\r\n    ",
+    "Answer": "<i>Be careful here. Don't let your answer be overly revealing. Don't criticize your current or former employers.</i>\r\n\r\nI've started feeling a bit stagnant, like I was no longer learning anything new or being challenged enough. I'm ready for something fresh, and this job and work environment seem to be just what I'm looking for.\r\n\r\n<i>Or...</i>\r\n\r\nThe company is moving their development office to [somewhere], and I don't want to commute that far.\r\n\r\n    ",
+    "Category": "Non-technical Questions",
+    "Disabled": false
+  },
+  {
+    "Question": "You didn't stay very long at Job X. Why?\r\n\r\n    ",
+    "Answer": "I had a six month contract to build an online newspaper for them, so I finished that and moved on.\r\n\r\n<i>Or...</i>\r\n\r\nI have made some bad career decisions in the past, but I have a clear path ahead of me now.  I know what I want, and so far, this job sounds like it would be a perfect fit for me.\r\n\r\n    ",
+    "Category": "Non-technical Questions",
+    "Disabled": false
+  },
+  {
+    "Question": "What is your current salary?\r\n\r\n    ",
+    "Answer": "<i>There are two schools of thought here.  You can either:\r\n\r\n- Tell the truth, or \r\n- Opt to not say \r\n\r\nI've always told the truth, but sometimes I wonder if I should have kept it to myself.  The bottom line is to never lie because if the employer does somehow find out that you lied about your previous salary, that could be grounds for termination.</i>\r\n\r\nI'm currently making a base salary of $75,000, but I also get an annual bonus and occasional project bonuses which can bump that number up to around $80,000.\r\n\r\n<i>Or...</i>\r\n\r\nHonestly, I'd rather not say, because if you think my current salary is too high, you may not consider me for the position, thinking that I might be unhappy making less money.  If you think it's too low, you might think I'm not worth what this job pays. I'm really interested in this position, and I just don't want it to hinder my chances either way.\r\n\r\n    ",
+    "Category": "Non-technical Questions",
+    "Disabled": false
+  },
+  {
+    "Question": "What salary are you looking for?\r\n\r\n    ",
+    "Answer": "<i>This is a very common question. You can almost definitely expect it at some point during the interview (usually toward the end).</i>\r\n\r\nI just want to be paid fairly for my education and experience. What does this position pay?\r\n\r\n    ",
+    "Category": "Non-technical Questions",
+    "Disabled": false
+  },
+  {
+    "Question": "What are your weaknesses?",
+    "Answer": "This is the question interviewees typically fear the most, but it's actually a blessing in disguise.\r\n    \t\r\nMy advice is to think about what the potential employer would say <i>negatively</i> about you <i>after you leave</i>, and <b>address those issues</b> with this question!\r\n\r\n\"One of my weaknesses is that I don't know as much about JavaScript as I'd like. I recently bought Douglas Crockford's book JavaScript: The Good Parts, and I've been going through it to learn more. Another weakness is that I sometimes struggle with time and task management. I've been working on that as well. I'm learning the Getting To Done system now. Another weakness of mine, professionally, is that I don't have a Microsoft Certification yet, but I'm actively pursuing it at the moment, and I expect to be at least an MCTS by the end of the year.\"\r\n\r\nThere are many weaknesses you can list, and then address:\r\n\r\n- Lack of a bachelor's degree, but you've been researching online universities as a potential option to finish your studies.\r\n- Lack of experience with [specific technology], but you've recently started going through some video tutorials on it in your spare time.\r\n- Haven't had a chance to get involved with any open source projects because you've been so busy with your own personal projects.\r\n\r\nSurely you can see the formula by now. List the weakness, then what you're doing to correct it. It's the perfect way to turn the weakness question into a positive for you.\r\n\r\n    ",
+    "Category": "Non-technical Questions",
+    "Disabled": false
+  }
+];
