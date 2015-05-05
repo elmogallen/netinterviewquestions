@@ -24,5 +24,7 @@ Because, as I mentioned above, the technology is all from 2011, when cross-platf
 Book
 --------
 I also wrote a book in 2011 first, then wrote the app to go along with it:
-http://www.amazon.com/Find-Land-Microsoft-NET-Development-ebook/dp/B004ZR17FG/ref=sr_1_1?ie=UTF8&qid=1430837993&sr=8-1&keywords=.net+interview+dave+haynes
+
+http://www.amazon.com/Find-Land-Microsoft-NET-Development-ebook/dp/B004ZR17FG/
+
 
