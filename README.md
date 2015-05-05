@@ -9,6 +9,12 @@ Now, I just learned that it is broken again with the latest version of Android (
 
 The questions, answers, and mobile app technology used in my .NET Interview Preparation Flash Cards are all from 2011, and I just learned that it's broken in Android Lollipop, so I've decided to simply open source the questions and answers themselves, and let others build on them if they wish.
 
+Why isn't the data more hierarchical?
+-------------------------------------
+Why don't you shut your face? I'm kidding! I could give you a few reasons that might sound valid, like for example: It started out as XML for use in a Windows application, and then I converted it later (using an automated tool) to JSON, so there's a little weirdness there because of that conversion. 
+
+But, the truth is because I didn't set it up properly the first time. I would do it much differently now, and in fact, if anyone wants to clean it up, have at it.
+
 Free to use in your own projects
 --------------------------------
 You can use these questions and answers in your own works, even commercially, if you desire. You can change them if you want, add to them, etc. All I ask is a little attribution (Dave Haynes / Downcast Systems LLC), and, if possible, a link to http://downcastsystems.com.
@@ -23,7 +29,7 @@ Because, as I mentioned above, the technology is all from 2011, when cross-platf
 
 Book
 --------
-I also wrote a book in 2011 first, then wrote the app to go along with it:
+I wrote a book (How to Find and Land a Microsoft.NET Development Job) first, then wrote the app to go along with it:
 
 http://www.amazon.com/Find-Land-Microsoft-NET-Development-ebook/dp/B004ZR17FG/
 
