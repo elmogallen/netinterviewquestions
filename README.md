@@ -16,3 +16,6 @@ You can use these questions and answers in your own works, even commercially, if
 Contributions
 -------------
 If you would like to make contributions, fixes, or updates, sure, go for it, but whatever you add to the official repo here will be covered under the MIT license, meaning that I and anyone else can use it too in personal and commercial projects.
+
+Why not release the full .NET Interview Preparation Flash Cards project?
+------------------------------------------------------------------------
