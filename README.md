@@ -33,4 +33,9 @@ I wrote a book (How to Find and Land a Microsoft.NET Development Job) first, the
 
 http://www.amazon.com/Find-Land-Microsoft-NET-Development-ebook/dp/B004ZR17FG/
 
+Other Projects
+--------------
+Puzzlewood Quests
+
+http://downcastsystems.com/puzzlewood
 
