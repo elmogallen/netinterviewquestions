@@ -1,4 +1,4 @@
-# netinterviewquestions
+# .NET Interview Questions
 A collection of .NET and software development questions in JSON format.
 
 What is this?
